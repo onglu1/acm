@@ -126,17 +126,167 @@ build CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛二/10.cpp.obj: CXX_COMP
   OBJECT_DIR = CMakeFiles\acm.dir
   OBJECT_FILE_DIR = CMakeFiles\acm.dir\codelist\other\2022-天梯赛训练赛二
 
+build CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛二/12.cpp.obj: CXX_COMPILER__acm_Debug C$:/Users/onglu/CLionProjects/acm/codelist/other/2022-天梯赛训练赛二/12.cpp || cmake_object_order_depends_target_acm
+  DEP_FILE = CMakeFiles\acm.dir\codelist\other\2022-天梯赛训练赛二\12.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\acm.dir
+  OBJECT_FILE_DIR = CMakeFiles\acm.dir\codelist\other\2022-天梯赛训练赛二
+
+build CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛二/13.cpp.obj: CXX_COMPILER__acm_Debug C$:/Users/onglu/CLionProjects/acm/codelist/other/2022-天梯赛训练赛二/13.cpp || cmake_object_order_depends_target_acm
+  DEP_FILE = CMakeFiles\acm.dir\codelist\other\2022-天梯赛训练赛二\13.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\acm.dir
+  OBJECT_FILE_DIR = CMakeFiles\acm.dir\codelist\other\2022-天梯赛训练赛二
+
+build CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛二/1.cpp.obj: CXX_COMPILER__acm_Debug C$:/Users/onglu/CLionProjects/acm/codelist/other/2022-天梯赛训练赛二/1.cpp || cmake_object_order_depends_target_acm
+  DEP_FILE = CMakeFiles\acm.dir\codelist\other\2022-天梯赛训练赛二\1.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\acm.dir
+  OBJECT_FILE_DIR = CMakeFiles\acm.dir\codelist\other\2022-天梯赛训练赛二
+
 build CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛二/11.cpp.obj: CXX_COMPILER__acm_Debug C$:/Users/onglu/CLionProjects/acm/codelist/other/2022-天梯赛训练赛二/11.cpp || cmake_object_order_depends_target_acm
   DEP_FILE = CMakeFiles\acm.dir\codelist\other\2022-天梯赛训练赛二\11.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\acm.dir
   OBJECT_FILE_DIR = CMakeFiles\acm.dir\codelist\other\2022-天梯赛训练赛二
 
-build CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛二/10t.cpp.obj: CXX_COMPILER__acm_Debug C$:/Users/onglu/CLionProjects/acm/codelist/other/2022-天梯赛训练赛二/10t.cpp || cmake_object_order_depends_target_acm
-  DEP_FILE = CMakeFiles\acm.dir\codelist\other\2022-天梯赛训练赛二\10t.cpp.obj.d
+build CMakeFiles/acm.dir/codelist/Codeforces/Educational_Codeforces_Round_124_(Rated_for_Div._2)/A.cpp.obj: CXX_COMPILER__acm_Debug C$:/Users/onglu/CLionProjects/acm/codelist/Codeforces/Educational$ Codeforces$ Round$ 124$ (Rated$ for$ Div.$ 2)/A.cpp || cmake_object_order_depends_target_acm
+  DEP_FILE = CMakeFiles\acm.dir\codelist\Codeforces\Educational_Codeforces_Round_124_(Rated_for_Div._2)\A.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\acm.dir
-  OBJECT_FILE_DIR = CMakeFiles\acm.dir\codelist\other\2022-天梯赛训练赛二
+  OBJECT_FILE_DIR = CMakeFiles\acm.dir\codelist\Codeforces\Educational_Codeforces_Round_124_(Rated_for_Div._2)
+
+build CMakeFiles/acm.dir/codelist/Codeforces/Educational_Codeforces_Round_124_(Rated_for_Div._2)/B.cpp.obj: CXX_COMPILER__acm_Debug C$:/Users/onglu/CLionProjects/acm/codelist/Codeforces/Educational$ Codeforces$ Round$ 124$ (Rated$ for$ Div.$ 2)/B.cpp || cmake_object_order_depends_target_acm
+  DEP_FILE = CMakeFiles\acm.dir\codelist\Codeforces\Educational_Codeforces_Round_124_(Rated_for_Div._2)\B.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\acm.dir
+  OBJECT_FILE_DIR = CMakeFiles\acm.dir\codelist\Codeforces\Educational_Codeforces_Round_124_(Rated_for_Div._2)
+
+build CMakeFiles/acm.dir/codelist/Codeforces/Educational_Codeforces_Round_124_(Rated_for_Div._2)/C.cpp.obj: CXX_COMPILER__acm_Debug C$:/Users/onglu/CLionProjects/acm/codelist/Codeforces/Educational$ Codeforces$ Round$ 124$ (Rated$ for$ Div.$ 2)/C.cpp || cmake_object_order_depends_target_acm
+  DEP_FILE = CMakeFiles\acm.dir\codelist\Codeforces\Educational_Codeforces_Round_124_(Rated_for_Div._2)\C.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\acm.dir
+  OBJECT_FILE_DIR = CMakeFiles\acm.dir\codelist\Codeforces\Educational_Codeforces_Round_124_(Rated_for_Div._2)
+
+build CMakeFiles/acm.dir/codelist/Codeforces/Educational_Codeforces_Round_124_(Rated_for_Div._2)/D.cpp.obj: CXX_COMPILER__acm_Debug C$:/Users/onglu/CLionProjects/acm/codelist/Codeforces/Educational$ Codeforces$ Round$ 124$ (Rated$ for$ Div.$ 2)/D.cpp || cmake_object_order_depends_target_acm
+  DEP_FILE = CMakeFiles\acm.dir\codelist\Codeforces\Educational_Codeforces_Round_124_(Rated_for_Div._2)\D.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\acm.dir
+  OBJECT_FILE_DIR = CMakeFiles\acm.dir\codelist\Codeforces\Educational_Codeforces_Round_124_(Rated_for_Div._2)
+
+build CMakeFiles/acm.dir/codelist/Codeforces/Educational_Codeforces_Round_124_(Rated_for_Div._2)/tD.cpp.obj: CXX_COMPILER__acm_Debug C$:/Users/onglu/CLionProjects/acm/codelist/Codeforces/Educational$ Codeforces$ Round$ 124$ (Rated$ for$ Div.$ 2)/tD.cpp || cmake_object_order_depends_target_acm
+  DEP_FILE = CMakeFiles\acm.dir\codelist\Codeforces\Educational_Codeforces_Round_124_(Rated_for_Div._2)\tD.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\acm.dir
+  OBJECT_FILE_DIR = CMakeFiles\acm.dir\codelist\Codeforces\Educational_Codeforces_Round_124_(Rated_for_Div._2)
+
+build CMakeFiles/acm.dir/codelist/Codeforces/Educational_Codeforces_Round_124_(Rated_for_Div._2)/ttD.cpp.obj: CXX_COMPILER__acm_Debug C$:/Users/onglu/CLionProjects/acm/codelist/Codeforces/Educational$ Codeforces$ Round$ 124$ (Rated$ for$ Div.$ 2)/ttD.cpp || cmake_object_order_depends_target_acm
+  DEP_FILE = CMakeFiles\acm.dir\codelist\Codeforces\Educational_Codeforces_Round_124_(Rated_for_Div._2)\ttD.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\acm.dir
+  OBJECT_FILE_DIR = CMakeFiles\acm.dir\codelist\Codeforces\Educational_Codeforces_Round_124_(Rated_for_Div._2)
+
+build CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛三/1.cpp.obj: CXX_COMPILER__acm_Debug C$:/Users/onglu/CLionProjects/acm/codelist/other/2022-天梯赛训练赛三/1.cpp || cmake_object_order_depends_target_acm
+  DEP_FILE = CMakeFiles\acm.dir\codelist\other\2022-天梯赛训练赛三\1.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\acm.dir
+  OBJECT_FILE_DIR = CMakeFiles\acm.dir\codelist\other\2022-天梯赛训练赛三
+
+build CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛三/4.cpp.obj: CXX_COMPILER__acm_Debug C$:/Users/onglu/CLionProjects/acm/codelist/other/2022-天梯赛训练赛三/4.cpp || cmake_object_order_depends_target_acm
+  DEP_FILE = CMakeFiles\acm.dir\codelist\other\2022-天梯赛训练赛三\4.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\acm.dir
+  OBJECT_FILE_DIR = CMakeFiles\acm.dir\codelist\other\2022-天梯赛训练赛三
+
+build CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛三/3.cpp.obj: CXX_COMPILER__acm_Debug C$:/Users/onglu/CLionProjects/acm/codelist/other/2022-天梯赛训练赛三/3.cpp || cmake_object_order_depends_target_acm
+  DEP_FILE = CMakeFiles\acm.dir\codelist\other\2022-天梯赛训练赛三\3.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\acm.dir
+  OBJECT_FILE_DIR = CMakeFiles\acm.dir\codelist\other\2022-天梯赛训练赛三
+
+build CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛三/7.cpp.obj: CXX_COMPILER__acm_Debug C$:/Users/onglu/CLionProjects/acm/codelist/other/2022-天梯赛训练赛三/7.cpp || cmake_object_order_depends_target_acm
+  DEP_FILE = CMakeFiles\acm.dir\codelist\other\2022-天梯赛训练赛三\7.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\acm.dir
+  OBJECT_FILE_DIR = CMakeFiles\acm.dir\codelist\other\2022-天梯赛训练赛三
+
+build CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛三/6.cpp.obj: CXX_COMPILER__acm_Debug C$:/Users/onglu/CLionProjects/acm/codelist/other/2022-天梯赛训练赛三/6.cpp || cmake_object_order_depends_target_acm
+  DEP_FILE = CMakeFiles\acm.dir\codelist\other\2022-天梯赛训练赛三\6.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\acm.dir
+  OBJECT_FILE_DIR = CMakeFiles\acm.dir\codelist\other\2022-天梯赛训练赛三
+
+build CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛三/8.cpp.obj: CXX_COMPILER__acm_Debug C$:/Users/onglu/CLionProjects/acm/codelist/other/2022-天梯赛训练赛三/8.cpp || cmake_object_order_depends_target_acm
+  DEP_FILE = CMakeFiles\acm.dir\codelist\other\2022-天梯赛训练赛三\8.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\acm.dir
+  OBJECT_FILE_DIR = CMakeFiles\acm.dir\codelist\other\2022-天梯赛训练赛三
+
+build CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛三/9.cpp.obj: CXX_COMPILER__acm_Debug C$:/Users/onglu/CLionProjects/acm/codelist/other/2022-天梯赛训练赛三/9.cpp || cmake_object_order_depends_target_acm
+  DEP_FILE = CMakeFiles\acm.dir\codelist\other\2022-天梯赛训练赛三\9.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\acm.dir
+  OBJECT_FILE_DIR = CMakeFiles\acm.dir\codelist\other\2022-天梯赛训练赛三
+
+build CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛三/9t.cpp.obj: CXX_COMPILER__acm_Debug C$:/Users/onglu/CLionProjects/acm/codelist/other/2022-天梯赛训练赛三/9t.cpp || cmake_object_order_depends_target_acm
+  DEP_FILE = CMakeFiles\acm.dir\codelist\other\2022-天梯赛训练赛三\9t.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\acm.dir
+  OBJECT_FILE_DIR = CMakeFiles\acm.dir\codelist\other\2022-天梯赛训练赛三
+
+build CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛三/10.cpp.obj: CXX_COMPILER__acm_Debug C$:/Users/onglu/CLionProjects/acm/codelist/other/2022-天梯赛训练赛三/10.cpp || cmake_object_order_depends_target_acm
+  DEP_FILE = CMakeFiles\acm.dir\codelist\other\2022-天梯赛训练赛三\10.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\acm.dir
+  OBJECT_FILE_DIR = CMakeFiles\acm.dir\codelist\other\2022-天梯赛训练赛三
+
+build CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛三/11.cpp.obj: CXX_COMPILER__acm_Debug C$:/Users/onglu/CLionProjects/acm/codelist/other/2022-天梯赛训练赛三/11.cpp || cmake_object_order_depends_target_acm
+  DEP_FILE = CMakeFiles\acm.dir\codelist\other\2022-天梯赛训练赛三\11.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\acm.dir
+  OBJECT_FILE_DIR = CMakeFiles\acm.dir\codelist\other\2022-天梯赛训练赛三
+
+build CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛三/12.cpp.obj: CXX_COMPILER__acm_Debug C$:/Users/onglu/CLionProjects/acm/codelist/other/2022-天梯赛训练赛三/12.cpp || cmake_object_order_depends_target_acm
+  DEP_FILE = CMakeFiles\acm.dir\codelist\other\2022-天梯赛训练赛三\12.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\acm.dir
+  OBJECT_FILE_DIR = CMakeFiles\acm.dir\codelist\other\2022-天梯赛训练赛三
+
+build CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛三/13.cpp.obj: CXX_COMPILER__acm_Debug C$:/Users/onglu/CLionProjects/acm/codelist/other/2022-天梯赛训练赛三/13.cpp || cmake_object_order_depends_target_acm
+  DEP_FILE = CMakeFiles\acm.dir\codelist\other\2022-天梯赛训练赛三\13.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\acm.dir
+  OBJECT_FILE_DIR = CMakeFiles\acm.dir\codelist\other\2022-天梯赛训练赛三
+
+build CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛三/14.cpp.obj: CXX_COMPILER__acm_Debug C$:/Users/onglu/CLionProjects/acm/codelist/other/2022-天梯赛训练赛三/14.cpp || cmake_object_order_depends_target_acm
+  DEP_FILE = CMakeFiles\acm.dir\codelist\other\2022-天梯赛训练赛三\14.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\acm.dir
+  OBJECT_FILE_DIR = CMakeFiles\acm.dir\codelist\other\2022-天梯赛训练赛三
+
+build CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛三/14t.cpp.obj: CXX_COMPILER__acm_Debug C$:/Users/onglu/CLionProjects/acm/codelist/other/2022-天梯赛训练赛三/14t.cpp || cmake_object_order_depends_target_acm
+  DEP_FILE = CMakeFiles\acm.dir\codelist\other\2022-天梯赛训练赛三\14t.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\acm.dir
+  OBJECT_FILE_DIR = CMakeFiles\acm.dir\codelist\other\2022-天梯赛训练赛三
+
+build CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛三/15.cpp.obj: CXX_COMPILER__acm_Debug C$:/Users/onglu/CLionProjects/acm/codelist/other/2022-天梯赛训练赛三/15.cpp || cmake_object_order_depends_target_acm
+  DEP_FILE = CMakeFiles\acm.dir\codelist\other\2022-天梯赛训练赛三\15.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\acm.dir
+  OBJECT_FILE_DIR = CMakeFiles\acm.dir\codelist\other\2022-天梯赛训练赛三
+
+build CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛三/15t.cpp.obj: CXX_COMPILER__acm_Debug C$:/Users/onglu/CLionProjects/acm/codelist/other/2022-天梯赛训练赛三/15t.cpp || cmake_object_order_depends_target_acm
+  DEP_FILE = CMakeFiles\acm.dir\codelist\other\2022-天梯赛训练赛三\15t.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\acm.dir
+  OBJECT_FILE_DIR = CMakeFiles\acm.dir\codelist\other\2022-天梯赛训练赛三
+
+build CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛三/14tt.cpp.obj: CXX_COMPILER__acm_Debug C$:/Users/onglu/CLionProjects/acm/codelist/other/2022-天梯赛训练赛三/14tt.cpp || cmake_object_order_depends_target_acm
+  DEP_FILE = CMakeFiles\acm.dir\codelist\other\2022-天梯赛训练赛三\14tt.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\acm.dir
+  OBJECT_FILE_DIR = CMakeFiles\acm.dir\codelist\other\2022-天梯赛训练赛三
 
 
 # =============================================================================
@@ -146,7 +296,7 @@ build CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛二/10t.cpp.obj: CXX_COM
 #############################################
 # Link the executable acm.exe
 
-build acm.exe: CXX_EXECUTABLE_LINKER__acm_Debug CMakeFiles/acm.dir/main.cpp.obj CMakeFiles/acm.dir/sds.cpp.obj CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛二/A.cpp.obj CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛二/3.cpp.obj CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛二/4.cpp.obj CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛二/5.cpp.obj CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛二/6.cpp.obj CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛二/7.cpp.obj CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛二/8.cpp.obj CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛二/9.cpp.obj CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛二/10.cpp.obj CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛二/11.cpp.obj CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛二/10t.cpp.obj
+build acm.exe: CXX_EXECUTABLE_LINKER__acm_Debug CMakeFiles/acm.dir/main.cpp.obj CMakeFiles/acm.dir/sds.cpp.obj CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛二/A.cpp.obj CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛二/3.cpp.obj CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛二/4.cpp.obj CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛二/5.cpp.obj CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛二/6.cpp.obj CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛二/7.cpp.obj CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛二/8.cpp.obj CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛二/9.cpp.obj CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛二/10.cpp.obj CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛二/12.cpp.obj CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛二/13.cpp.obj CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛二/1.cpp.obj CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛二/11.cpp.obj CMakeFiles/acm.dir/codelist/Codeforces/Educational_Codeforces_Round_124_(Rated_for_Div._2)/A.cpp.obj CMakeFiles/acm.dir/codelist/Codeforces/Educational_Codeforces_Round_124_(Rated_for_Div._2)/B.cpp.obj CMakeFiles/acm.dir/codelist/Codeforces/Educational_Codeforces_Round_124_(Rated_for_Div._2)/C.cpp.obj CMakeFiles/acm.dir/codelist/Codeforces/Educational_Codeforces_Round_124_(Rated_for_Div._2)/D.cpp.obj CMakeFiles/acm.dir/codelist/Codeforces/Educational_Codeforces_Round_124_(Rated_for_Div._2)/tD.cpp.obj CMakeFiles/acm.dir/codelist/Codeforces/Educational_Codeforces_Round_124_(Rated_for_Div._2)/ttD.cpp.obj CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛三/1.cpp.obj CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛三/4.cpp.obj CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛三/3.cpp.obj CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛三/7.cpp.obj CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛三/6.cpp.obj CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛三/8.cpp.obj CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛三/9.cpp.obj CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛三/9t.cpp.obj CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛三/10.cpp.obj CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛三/11.cpp.obj CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛三/12.cpp.obj CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛三/13.cpp.obj CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛三/14.cpp.obj CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛三/14t.cpp.obj CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛三/15.cpp.obj CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛三/15t.cpp.obj CMakeFiles/acm.dir/codelist/other/2022-天梯赛训练赛三/14tt.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\acm.dir

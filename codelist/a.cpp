@@ -3,7 +3,7 @@
 //
 
 #include <bits/stdc++.h>
-
+#define int long long
 #define lson (rt << 1)
 #define rson (rt << 1 | 1)
 #define Mid ((l + r) / 2)
@@ -16,7 +16,16 @@ const int N = 5009;
 int n, m, a[N];
 
 void work() {
-
+    cin >> n;
+    for(int i = 0; i < 1 << n; i++) {
+        cout << i << ":";
+        for(int j = 0; j < 18; j++) {
+            if(i >> j & 1) {
+                cout << " " << j;
+            }
+        }
+        cout << endl;
+    }
 }
 
 signed main() {
@@ -26,15 +35,15 @@ signed main() {
 #endif
     ios::sync_with_stdio(false);
     cin.tie(0);
-    string s1 = "abaaa";
-    string s2 = "aba";
-    cout << (s1.find(s2) == s1.npos) << endl;
+    int x = 3;
+    int y = 5;
+    for(int i = 3; i <= 1000; i += 11) {
+        for(int j = 5; j <= 1000; j += 11) {
+            if((97 * i + 4 * j * j * j)% 11 <= 10) {
+                cout << (97 * i + 4 * j * j * j)% 11 << endl;
+
+            }
+        }
+    }
     return 0;
 }
-/*
- * n=100的图，m次加边
- * 对于每个点x，输出第几次加边后存在一条1->x，长度为L的路径。
- * 直接暴力算？
- * n^2 * n^3logL
- *
- */
