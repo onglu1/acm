@@ -3,7 +3,7 @@
 //
 
 #include <bits/stdc++.h>
-
+#define int long long
 #define all(a) a.begin(),a.end()
 #define rall(a) a.rbegin(),a.rend()
 
@@ -25,20 +25,22 @@ int get(int n) {
 }
 void work() {
     cin >> s; n = s.size();
-    f[1][0] = 1;
-    f[1][1] = 1;
-    for(int i = 2; i <= n; i++) {
-        for(int j = 0; j <= 3; j++) {
+    f[0][0] = 1;
+    f[0][1] = 1;
+    for(int i = 1; i < n; i++) {
+        f[i][0] = f[i - 1][0];
+        for(int j = 1; j <= 3; j++) {
             f[i][j] = f[i - 1][j - 1] + f[i - 1][j];
         }
         for(int j = 0; j <= 3; j++) {
-            for(int k = 1; k >= j && i - k > 0; k++) if(s[i - k - 1] == s[i - 1]){
+            for(int k = 1; k <= j && i - k >= 0; k++) if(s[i - k] == s[i]){
                 f[i][j] -= f[i - k][j - k];
+                break;
             }
         }
     }
-    cout << f[2][1] << endl;
-    cout << get(n) << endl;
+    cout << f[3][2] << endl;
+    cout << get(n - 1) << endl;
 }
 
 signed main() {
