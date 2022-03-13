@@ -20,9 +20,8 @@ CMAKE_ADDR2LINE:FILEPATH=C:/Program Files/JetBrains/CLion 2021.3.1/bin/mingw/bin
 //Path to a program.
 CMAKE_AR:FILEPATH=C:/Program Files/JetBrains/CLion 2021.3.1/bin/mingw/bin/ar.exe
 
-//Choose the type of build, options are: None Debug Release RelWithDebInfo
-// MinSizeRel ...
-CMAKE_BUILD_TYPE:STRING=Debug
+//No help, variable specified on the command line.
+CMAKE_BUILD_TYPE:UNINITIALIZED=Debug
 
 //CXX compiler
 CMAKE_CXX_COMPILER:FILEPATH=C:/Program Files/JetBrains/CLion 2021.3.1/bin/mingw/bin/g++.exe
@@ -112,8 +111,8 @@ CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/acm
 //Path to a program.
 CMAKE_LINKER:FILEPATH=C:/Program Files/JetBrains/CLion 2021.3.1/bin/mingw/bin/ld.exe
 
-//make program
-CMAKE_MAKE_PROGRAM:FILEPATH=C:/Program Files/JetBrains/CLion 2021.3.1/bin/ninja/win/ninja.exe
+//No help, variable specified on the command line.
+CMAKE_MAKE_PROGRAM:UNINITIALIZED=C:/Program Files/JetBrains/CLion 2021.3.1/bin/ninja/win/ninja.exe
 
 //Flags used by the linker during the creation of modules during
 // all build types.
