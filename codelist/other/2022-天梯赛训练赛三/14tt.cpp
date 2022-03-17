@@ -18,29 +18,31 @@ const int N = 2e6 + 1009;
 //const int N = 5009;
 //const int N = 309
 int n, m, a[N];
-int f[N][3];
+int f[N][5];
 string s;
 int get(int n) {
     return f[n][0] + f[n][1] + f[n][2] + f[n][3];
 }
 void work() {
-    cin >> s; n = s.size();
+    cin >> s; n  = s.size();
     f[0][0] = 1;
-    f[0][1] = 1;
-    for(int i = 1; i < n; i++) {
+    f[1][0] = 1;
+    f[1][1] = 1;
+    f[1][2] = 0;
+    f[1][3] = 0;
+    for(int i = 2; i <= n; i++) {
         f[i][0] = f[i - 1][0];
         for(int j = 1; j <= 3; j++) {
             f[i][j] = f[i - 1][j - 1] + f[i - 1][j];
         }
-        for(int j = 0; j <= 3; j++) {
-            for(int k = 1; k <= j && i - k >= 0; k++) if(s[i - k] == s[i]){
-                f[i][j] -= f[i - k][j - k];
+        for(int j = 1; j <= 3; j++) {
+            for(int k = 1; k <= j && i - k >= 1; k++) if(s[i - k - 1] == s[i - 1]){
+                f[i][j] -= f[i - k - 1][j - k];
                 break;
             }
         }
     }
-    cout << f[3][2] << endl;
-    cout << get(n - 1) << endl;
+    cout << get(n) << endl;
 }
 
 signed main() {

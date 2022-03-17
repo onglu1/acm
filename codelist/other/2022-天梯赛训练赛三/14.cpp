@@ -45,7 +45,9 @@ void work() {
             M[hs] = 1;
         }
     }
+    cout << ans - 1 << endl;
     M.clear();
+    int t = ans;
     for(int i = 0; i < n; i++) {
         for(int j = i + 1; j < n; j++) {
             ull hs = query(0, i) + query(i + 1, j) * pw[i] + query(j + 1, n) * pw[j - 1];
@@ -55,6 +57,8 @@ void work() {
             }
         }
     }
+    cout << ans - t << endl;
+    t = ans;
     M.clear();
     for(int i = 0; i < n; i++) {
         for(int j = i + 1; j < n; j++) {
@@ -67,6 +71,7 @@ void work() {
             }
         }
     }
+    cout << ans - t << endl << endl;
     cout << ans << endl;
 }
 
