@@ -1,5 +1,5 @@
 //
-// Created by onglu on 2022/3/1.
+// Created by onglu on 2022/3/23.
 //
 
 #include <bits/stdc++.h>
@@ -20,7 +20,24 @@ const int N = 2e6 + 1009;
 int n, m, a[N];
 
 void work() {
-
+    int cnt = 0;
+    cin >> n >> m;
+    while(1) {
+        int tn = n;
+        vector<int> v;
+        v.push_back(tn % 10); tn /= 10;
+        v.push_back(tn % 10); tn /= 10;
+        v.push_back(tn % 10); tn /= 10;
+        v.push_back(tn % 10); tn /= 10;
+        std::sort(v.begin(), v.end());
+        v.resize(std::unique(v.begin(), v.end()) - v.begin());
+        if(v.size() == m) {
+            printf("%d %04d\n", cnt, n);
+            break;
+        }
+        cnt++;
+        n++;
+    }
 }
 
 signed main() {
@@ -30,8 +47,8 @@ signed main() {
 #endif
     ios::sync_with_stdio(false);
     cin.tie(0);
-    int a = 0;
-    cin >> a;
-    for(int i = 1; i <= a; i++) cout << "!" << endl;
+    int Case = 1;
+//  cin >> Case;
+    while (Case--) work();
     return 0;
 }

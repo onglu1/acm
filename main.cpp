@@ -1,91 +1,95 @@
-//
-// Created by onglu on 2022/3/16.
-//
-
 #include <bits/stdc++.h>
-
-#define all(a) a.begin(),a.end()
-#define rall(a) a.rbegin(),a.rend()
-#define son(x, f) tree[x].ch[f]
-#define val(x) tree[x].val
 #define endl '\n'
-#define lson (rt << 1)
-#define rson (rt << 1 | 1)
-#define Mid ((l + r) / 2)
-//#define int long long
 using namespace std;
 const int N = 2e6 + 1009;
-//const int N = 2e5 + 1009;
-//const int N = 5009;
-//const int N = 309
-int n, m, tot;
-map<int, int> pos, dth, fa;
-struct node {
-    int val;
-    int ch[2];
-} tree[N];
-int newNode(int x) {
-    val(++tot) = x;
-    son(tot, 0) = son(tot, 1) = -1;
-    return tot;
+struct Edge {
+    int to, w;
+};
+int n, m, c, a[N], siz[N], mson[N], wmson[N];
+int cnt[N], col[N], sum, Son, ans[N];
+vector<Edge> son[N];
+
+void dfs1(int x, int pre) {
+    siz[x] = 1;
+    mson[x] = 0;
+    for(auto y : son[x]) if(y.to != pre) {
+            dfs1(y.to, x);
+            siz[x] += siz[y.to];
+            if(!mson[x] || siz[y.to] > siz[mson[x]]) {
+                wmson[x] = y.w;
+                mson[x] = y.to;
+            }
+        }
 }
-void Insert(int x, int rt, int d) {
-    int f = x > val(rt);
-    if(son(x, f) == -1) {
-        int t = newNode(x);
-        son(x, f) = t;
-        pos[x] = t;
-        dth[x] = d;
-        fa[x] = val(rt);
-    } else {
-        Insert(x, son(x, f), d + 1);
+void add(int x, int pre, int v) {
+    for(auto y : son[x]) {
+        if(y.to == pre || y.to == Son) continue;
+        sum -= cnt[y.w];// * y.w * cnt[y.w] * y.w;
+        cnt[y.w] += v;
+        sum += cnt[y.w];// * y.w * cnt[y.w] * y.w;
+        add(y.to, x, v);
     }
 }
-int root = -1;
-int isroot(int x) {
-    if(!pos.count(x)) return false;
-    return root == pos[x];
-}
-int issiblings(int x, int y) {
-    if(!fa.count(x) || !fa.count(y)) return false;
-    return fa[x] == fa[y];
-}
-int isparent(int pre, int nxt) {
-    if(!fa.count(nxt)) return false;
-    return pre == fa[nxt];
-}
-int isson(int pre, int nxt, int f) {
-    return son(pos[pre], f) == pos[nxt];
-}
-int issamelevel(int x, int y) {
-    return dth[x] == dth[y];
+void dfs2(int x, int pre, int keep) {
+    for(auto y : son[x]) {
+        if(y.to == pre || y.to == mson[x]) continue;
+        dfs2(y.to, x, 0);
+    }
+    if(mson[x]) {
+        dfs2(mson[x], x, 1), Son = mson[x];
+        sum -= cnt[wmson[x]];// * wmson[x] * cnt[wmson[x]] * wmson[x];
+        cnt[wmson[x]] += 1;
+        sum += cnt[wmson[x]];// * wmson[x] * cnt[wmson[x]] * wmson[x];
+    }
+    add(x, pre, 1); Son = 0;
+    ans[x] = sum;
+    if(!keep) add(x, pre, -1), sum = 0;
 }
 void work() {
-    cin >> n;
-    for(int i = 1; i <= n; i++) {
-        int x;
-        cin >> x;
-        cerr << i << endl;
-        if(root == -1) {
-            root = newNode(x);
-            dth[root] = 1;
-        } else {
-            cerr << root << endl;
-            cerr << val(root) << endl;
-            Insert(x, root, 1);
-        }
+    cin >> n >> m >> c;
+    for(int i = 1; i < n; i++) {
+        int x, y, w;
+        cin >> x >> y >> w;
+        son[x].push_back({y, w});
+        son[y].push_back({x, w});
     }
-    int q;
-    cin >> q;
-    while(q--) {
-
+    dfs1(1, 0);
+    dfs2(1, 0, 1);
+    while(m--) {
+        int t;
+        cin >> t;
+        cout << ans[t] << endl;
     }
 }
 
 signed main() {
-
+#ifdef LOCAL
+    freopen("C:\\Users\\onglu\\CLionProjects\\acm\\data.in", "r", stdin);
+    freopen("C:\\Users\\onglu\\CLionProjects\\acm\\data.out", "w", stdout);
+#endif
     ios::sync_with_stdio(false);
     cin.tie(0);
-    work();
+    int Case = 1;
+//    cin >> Case;
+    while (Case--) work();
     return 0;
 }
+/*
+11 6 10
+1 2 9
+2 3 1
+3 4 6
+2 5 7
+4 6 5
+5 7 7
+7 8 8
+7 9 3
+7 10 6
+3 11 3
+5
+7
+10
+6
+1
+5
+ */

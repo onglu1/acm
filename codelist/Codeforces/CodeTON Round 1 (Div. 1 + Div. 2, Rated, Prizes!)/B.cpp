@@ -1,5 +1,5 @@
 //
-// Created by onglu on 2022/3/5.
+// Created by onglu on 2022/3/24.
 //
 
 #include <bits/stdc++.h>
@@ -18,9 +18,22 @@ const int N = 2e6 + 1009;
 //const int N = 5009;
 //const int N = 309
 int n, m, a[N];
-
+map<int, int> M;
 void work() {
-
+    cin >> n >> m;
+    M.clear();
+    for(int i = 1; i <= n; i++) {
+        cin >> a[i];
+    }
+    for(int i = 1; i <= n; i++) {
+        int x = a[i];
+        if(M.count(x - m) || M.count(x + m)) {
+            cout << "YES" << endl;
+            return ;
+        }
+        M[x] = 1;
+    }
+    cout << "NO" << endl;
 }
 
 signed main() {
@@ -30,7 +43,7 @@ signed main() {
 #endif
     ios::sync_with_stdio(false);
     cin.tie(0);
-    int Case = 0;
+    int Case = 1;
     cin >> Case;
     while (Case--) work();
     return 0;

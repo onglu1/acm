@@ -1,5 +1,5 @@
 //
-// Created by onglu on 2022/3/18.
+// Created by onglu on 2022/3/24.
 //
 
 #include <bits/stdc++.h>
@@ -20,7 +20,14 @@ const int N = 2e6 + 1009;
 int n, m, a[N];
 
 void work() {
-
+    int maxn = 1, minn = 1;
+    cin >> n;
+    for(int i = 1; i <= n; i++) {
+        cin >> a[i];
+        if(a[i] > a[maxn]) maxn = i;
+        if(a[i] < a[minn]) minn = i;
+    }
+    cout << minn << " " << maxn << endl;
 }
 
 signed main() {
@@ -30,7 +37,7 @@ signed main() {
 #endif
     ios::sync_with_stdio(false);
     cin.tie(0);
-    int Case = 0;
+    int Case = 1;
     cin >> Case;
     while (Case--) work();
     return 0;
