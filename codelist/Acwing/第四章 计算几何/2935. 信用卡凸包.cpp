@@ -85,17 +85,25 @@ void work() {
     for(int i = 1; i <= n; i++) {
         double x, y, theta;
         scanf("%lf %lf %lf", &x, &y, &theta);
-        p.push_back(Point(x, y) + rot({b / 2, 0}, theta) + rot({a / 2, 0}, theta));
-        p.push_back(Point(x, y) + rot({b / 2, 0}, theta) - rot({a / 2, 0}, theta));
-        p.push_back(Point(x, y) - rot({b / 2, 0}, theta) + rot({a / 2, 0}, theta));
-        p.push_back(Point(x, y) - rot({b / 2, 0}, theta) - rot({a / 2, 0}, theta));
+        p.push_back(Point(x, y) + rot(Point(b / 2 - r, 0) + Point(0, a / 2 - r), theta));
+        p.push_back(Point(x, y) + rot(Point(b / 2 - r, 0) - Point(0, a / 2 - r), theta));
+        p.push_back(Point(x, y) - rot(Point(b / 2 - r, 0) + Point(0, a / 2 - r), theta));
+        p.push_back(Point(x, y) - rot(Point(b / 2 - r, 0) - Point(0, a / 2 - r), theta));
     }
     Polygon s = Convex_hull(p);
     double ans = 0;
     for(int i = 0; i < s.size(); i++) {
-        ans += abs(s[i] - s[nxt(i)]);
-        cerr << s[i].x << " " << s[i].y << endl;
+        int pre = (i - 1 + (int)s.size()) % s.size();
+        double l = abs(s[nxt(i)] - s[i]);
+        double ll = abs(s[pre] - s[i]);
+        ans += l;
+        if(fabs(dot(s[nxt(i)] - s[i], s[pre] - s[i]) / l / ll) < 1 - 1e-11) {
+            double theta1 = fabs(acos(dot(s[nxt(i)] - s[i], s[pre] - s[i]) / l / ll));
+            double theta2 = Pi - theta1;
+            ans += r * theta2;
+        }
     }
+
     printf("%.2f\n", ans);
 
 
