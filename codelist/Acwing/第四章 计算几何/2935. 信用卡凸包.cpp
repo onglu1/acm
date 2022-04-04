@@ -93,18 +93,18 @@ void work() {
     Polygon s = Convex_hull(p);
     double ans = 0;
     for(int i = 0; i < s.size(); i++) {
-        int pre = (i - 1 + (int)s.size()) % s.size();
+//        int pre = (i - 1 + (int)s.size()) % s.size();
         double l = abs(s[nxt(i)] - s[i]);
-        double ll = abs(s[pre] - s[i]);
+//        double ll = abs(s[pre] - s[i]);
         ans += l;
-        if(fabs(dot(s[nxt(i)] - s[i], s[pre] - s[i]) / l / ll) < 1 - 1e-11) {
-            double theta1 = fabs(acos(dot(s[nxt(i)] - s[i], s[pre] - s[i]) / l / ll));
-            double theta2 = Pi - theta1;
-            ans += r * theta2;
-        }
+//        if(fabs(dot(s[nxt(i)] - s[i], s[pre] - s[i]) / l / ll) < 1 - 1e-11) {
+//            double theta1 = fabs(acos(dot(s[nxt(i)] - s[i], s[pre] - s[i]) / l / ll));
+//            double theta2 = Pi - theta1;
+//            ans += r * theta2;
+//        }
     }
 
-    printf("%.2f\n", ans);
+    printf("%.2f\n", ans + 2 * Pi * r);
 
 
 }
