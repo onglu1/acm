@@ -66,6 +66,12 @@ build CMakeFiles/acm.dir/main.cpp.obj: CXX_COMPILER__acm_Debug C$:/Users/onglu/C
   OBJECT_DIR = CMakeFiles\acm.dir
   OBJECT_FILE_DIR = CMakeFiles\acm.dir
 
+build CMakeFiles/acm.dir/codelist/other/20220403/A.cpp.obj: CXX_COMPILER__acm_Debug C$:/Users/onglu/CLionProjects/acm/codelist/other/20220403/A.cpp || cmake_object_order_depends_target_acm
+  DEP_FILE = CMakeFiles\acm.dir\codelist\other\20220403\A.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\acm.dir
+  OBJECT_FILE_DIR = CMakeFiles\acm.dir\codelist\other\20220403
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target acm
@@ -74,7 +80,7 @@ build CMakeFiles/acm.dir/main.cpp.obj: CXX_COMPILER__acm_Debug C$:/Users/onglu/C
 #############################################
 # Link the executable acm.exe
 
-build acm.exe: CXX_EXECUTABLE_LINKER__acm_Debug CMakeFiles/acm.dir/main.cpp.obj
+build acm.exe: CXX_EXECUTABLE_LINKER__acm_Debug CMakeFiles/acm.dir/main.cpp.obj CMakeFiles/acm.dir/codelist/other/20220403/A.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\acm.dir
