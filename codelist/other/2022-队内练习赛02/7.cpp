@@ -13,7 +13,7 @@
 #define Mid ((l + r) / 2)
 #define int unsigned
 using namespace std;
-const int N = 2e6 + 1009;
+const int N = 3e5 + 1009;
 //const int N = 2e5 + 1009;
 //const int N = 5009;
 //const int N = 309;
@@ -73,13 +73,7 @@ void work() {
             cin >> g[i][j];
         }
     }
-//    for(int i = 1; i <= n; i++) {
-//        for(int j = 1; j <= m; j++) {
-//            cout << g[i][j] << " \n"[j == m];
-//        }
-//    }
     buildR(1, n, 1);
-//    cout << tree[1][1] << endl;
     for(int i = 1; i <= q; i++) {
         int L1, R1, L2, R2;
         cin >> L1 >> L2 >> R1 >> R2;
