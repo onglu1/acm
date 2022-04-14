@@ -1,37 +1,55 @@
-//
-// Created by onglu on 2022/3/27.
-//
-
 #include <bits/stdc++.h>
-
-#define all(a) a.begin(),a.end()
-#define rall(a) a.rbegin(),a.rend()
-
-#define endl '\n'
-#define lson (rt << 1)
-#define rson (rt << 1 | 1)
-#define Mid ((l + r) / 2)
-//#define int long long
 using namespace std;
-const int N = 2e6 + 1009;
-//const int N = 2e5 + 1009;
-//const int N = 5009;
-//const int N = 309
-int n, m, a[N];
-
-void work() {
-
+vector<int> g[5010];
+set<int> st;
+int vis[5010];
+void dfs(int x)
+{
+    if(vis[x] == 1)
+    {
+        puts("-1");
+        exit(0);
+    }
+    st.insert(x);
+    vis[x] = 1;
+    for(auto y : g[x])
+        dfs(y);
+    vis[x] = 0;
 }
+int main()
+{
+    int n, t;
+    cin >> n >> t;
+    for(int i = 0; i < n; i ++)
+    {
+        string a;
+        cin >> a;
+        int b = 0;
+        int flag = 0;
+        for(int j = 0; j < a.size(); j ++)
+        {
+            if(a[j] == ',')
+            {
+                if(flag == 0) {b = 0; flag = 1; continue;}
+                g[i].push_back(b);
+                b = 0;
+            }
+            else b = b * 10 + a[j] - '0';
+        }
+        if(flag == 0) {flag = 1; continue;}
+        g[i].push_back(b);
+    }
 
-signed main() {
-#ifdef LOCAL
-    freopen("C:\\Users\\onglu\\CLionProjects\\acm\\data.in", "r", stdin);
-    freopen("C:\\Users\\onglu\\CLionProjects\\acm\\data.out", "w", stdout);
-#endif
-    ios::sync_with_stdio(false);
-    cin.tie(0);
-    int Case = 0;
-    cin >> Case;
-    while (Case--) work();
+    dfs(t);
+    vector<int> ans;
+    for(auto x : st) if(x != t) ans.push_back(x);
+    if(ans.size() == 0) puts("null");
+    else
+    {
+        for(int i = 0; i < ans.size() - 1; i ++)
+            printf("%d,", ans[i]);
+        printf("%d\n", ans[ans.size() - 1]);
+    }
+
     return 0;
 }
