@@ -72,6 +72,60 @@ build CMakeFiles/acm.dir/codelist/other/20220403/A.cpp.obj: CXX_COMPILER__acm_De
   OBJECT_DIR = CMakeFiles\acm.dir
   OBJECT_FILE_DIR = CMakeFiles\acm.dir\codelist\other\20220403
 
+build CMakeFiles/acm.dir/codelist/other/2020410/A.cpp.obj: CXX_COMPILER__acm_Debug C$:/Users/onglu/CLionProjects/acm/codelist/other/2020410/A.cpp || cmake_object_order_depends_target_acm
+  DEP_FILE = CMakeFiles\acm.dir\codelist\other\2020410\A.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\acm.dir
+  OBJECT_FILE_DIR = CMakeFiles\acm.dir\codelist\other\2020410
+
+build CMakeFiles/acm.dir/codelist/other/2020410/M.cpp.obj: CXX_COMPILER__acm_Debug C$:/Users/onglu/CLionProjects/acm/codelist/other/2020410/M.cpp || cmake_object_order_depends_target_acm
+  DEP_FILE = CMakeFiles\acm.dir\codelist\other\2020410\M.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\acm.dir
+  OBJECT_FILE_DIR = CMakeFiles\acm.dir\codelist\other\2020410
+
+build CMakeFiles/acm.dir/codelist/other/2020410/H.cpp.obj: CXX_COMPILER__acm_Debug C$:/Users/onglu/CLionProjects/acm/codelist/other/2020410/H.cpp || cmake_object_order_depends_target_acm
+  DEP_FILE = CMakeFiles\acm.dir\codelist\other\2020410\H.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\acm.dir
+  OBJECT_FILE_DIR = CMakeFiles\acm.dir\codelist\other\2020410
+
+build CMakeFiles/acm.dir/codelist/POJ/2318-TOYS.cpp.obj: CXX_COMPILER__acm_Debug C$:/Users/onglu/CLionProjects/acm/codelist/POJ/2318-TOYS.cpp || cmake_object_order_depends_target_acm
+  DEP_FILE = CMakeFiles\acm.dir\codelist\POJ\2318-TOYS.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\acm.dir
+  OBJECT_FILE_DIR = CMakeFiles\acm.dir\codelist\POJ
+
+build CMakeFiles/acm.dir/codelist/POJ/2398-Toy_Storage.cpp.obj: CXX_COMPILER__acm_Debug C$:/Users/onglu/CLionProjects/acm/codelist/POJ/2398-Toy$ Storage.cpp || cmake_object_order_depends_target_acm
+  DEP_FILE = CMakeFiles\acm.dir\codelist\POJ\2398-Toy_Storage.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\acm.dir
+  OBJECT_FILE_DIR = CMakeFiles\acm.dir\codelist\POJ
+
+build CMakeFiles/acm.dir/codelist/Codeforces/2021-2022_ICPC,_NERC,_Northern_Eurasia_Onsite_(Unrated,_Online_Mirror,_ICPC_Rules,_Teams_Preferred)/C.cpp.obj: CXX_COMPILER__acm_Debug C$:/Users/onglu/CLionProjects/acm/codelist/Codeforces/2021-2022$ ICPC,$ NERC,$ Northern$ Eurasia$ Onsite$ (Unrated,$ Online$ Mirror,$ ICPC$ Rules,$ Teams$ Preferred)/C.cpp || cmake_object_order_depends_target_acm
+  DEP_FILE = CMakeFiles\acm.dir\codelist\Codeforces\2021-2022_ICPC,_NERC,_Northern_Eurasia_Onsite_(Unrated,_Online_Mirror,_ICPC_Rules,_Teams_Preferred)\C.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\acm.dir
+  OBJECT_FILE_DIR = CMakeFiles\acm.dir\codelist\Codeforces\2021-2022_ICPC,_NERC,_Northern_Eurasia_Onsite_(Unrated,_Online_Mirror,_ICPC_Rules,_Teams_Preferred)
+
+build CMakeFiles/acm.dir/codelist/Codeforces/2021-2022_ICPC,_NERC,_Northern_Eurasia_Onsite_(Unrated,_Online_Mirror,_ICPC_Rules,_Teams_Preferred)/L.cpp.obj: CXX_COMPILER__acm_Debug C$:/Users/onglu/CLionProjects/acm/codelist/Codeforces/2021-2022$ ICPC,$ NERC,$ Northern$ Eurasia$ Onsite$ (Unrated,$ Online$ Mirror,$ ICPC$ Rules,$ Teams$ Preferred)/L.cpp || cmake_object_order_depends_target_acm
+  DEP_FILE = CMakeFiles\acm.dir\codelist\Codeforces\2021-2022_ICPC,_NERC,_Northern_Eurasia_Onsite_(Unrated,_Online_Mirror,_ICPC_Rules,_Teams_Preferred)\L.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\acm.dir
+  OBJECT_FILE_DIR = CMakeFiles\acm.dir\codelist\Codeforces\2021-2022_ICPC,_NERC,_Northern_Eurasia_Onsite_(Unrated,_Online_Mirror,_ICPC_Rules,_Teams_Preferred)
+
+build CMakeFiles/acm.dir/codelist/Codeforces/2021-2022_ICPC,_NERC,_Northern_Eurasia_Onsite_(Unrated,_Online_Mirror,_ICPC_Rules,_Teams_Preferred)/J.cpp.obj: CXX_COMPILER__acm_Debug C$:/Users/onglu/CLionProjects/acm/codelist/Codeforces/2021-2022$ ICPC,$ NERC,$ Northern$ Eurasia$ Onsite$ (Unrated,$ Online$ Mirror,$ ICPC$ Rules,$ Teams$ Preferred)/J.cpp || cmake_object_order_depends_target_acm
+  DEP_FILE = CMakeFiles\acm.dir\codelist\Codeforces\2021-2022_ICPC,_NERC,_Northern_Eurasia_Onsite_(Unrated,_Online_Mirror,_ICPC_Rules,_Teams_Preferred)\J.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\acm.dir
+  OBJECT_FILE_DIR = CMakeFiles\acm.dir\codelist\Codeforces\2021-2022_ICPC,_NERC,_Northern_Eurasia_Onsite_(Unrated,_Online_Mirror,_ICPC_Rules,_Teams_Preferred)
+
+build CMakeFiles/acm.dir/checker/pad.cpp.obj: CXX_COMPILER__acm_Debug C$:/Users/onglu/CLionProjects/acm/checker/pad.cpp || cmake_object_order_depends_target_acm
+  DEP_FILE = CMakeFiles\acm.dir\checker\pad.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\acm.dir
+  OBJECT_FILE_DIR = CMakeFiles\acm.dir\checker
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target acm
@@ -80,7 +134,7 @@ build CMakeFiles/acm.dir/codelist/other/20220403/A.cpp.obj: CXX_COMPILER__acm_De
 #############################################
 # Link the executable acm.exe
 
-build acm.exe: CXX_EXECUTABLE_LINKER__acm_Debug CMakeFiles/acm.dir/main.cpp.obj CMakeFiles/acm.dir/codelist/other/20220403/A.cpp.obj
+build acm.exe: CXX_EXECUTABLE_LINKER__acm_Debug CMakeFiles/acm.dir/main.cpp.obj CMakeFiles/acm.dir/codelist/other/20220403/A.cpp.obj CMakeFiles/acm.dir/codelist/other/2020410/A.cpp.obj CMakeFiles/acm.dir/codelist/other/2020410/M.cpp.obj CMakeFiles/acm.dir/codelist/other/2020410/H.cpp.obj CMakeFiles/acm.dir/codelist/POJ/2318-TOYS.cpp.obj CMakeFiles/acm.dir/codelist/POJ/2398-Toy_Storage.cpp.obj CMakeFiles/acm.dir/codelist/Codeforces/2021-2022_ICPC,_NERC,_Northern_Eurasia_Onsite_(Unrated,_Online_Mirror,_ICPC_Rules,_Teams_Preferred)/C.cpp.obj CMakeFiles/acm.dir/codelist/Codeforces/2021-2022_ICPC,_NERC,_Northern_Eurasia_Onsite_(Unrated,_Online_Mirror,_ICPC_Rules,_Teams_Preferred)/L.cpp.obj CMakeFiles/acm.dir/codelist/Codeforces/2021-2022_ICPC,_NERC,_Northern_Eurasia_Onsite_(Unrated,_Online_Mirror,_ICPC_Rules,_Teams_Preferred)/J.cpp.obj CMakeFiles/acm.dir/checker/pad.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\acm.dir

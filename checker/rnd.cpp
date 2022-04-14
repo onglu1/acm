@@ -20,7 +20,20 @@ int main()
     srand(std::chrono::steady_clock::now().time_since_epoch().count());
     ios ::sync_with_stdio();
     cin.tie(0);
-    cout << rd(1, 10) << " " << rd(1, 10) << " " << rd(1, 10) << endl;
-
+    int Case = 10;
+    cout << Case << endl;
+    while(Case--) {
+        int n = 8;
+        vector<int> v;
+        for(int i = 1; i <= n; i++) {
+            v.push_back(rd(1, n));
+        }
+        std::sort(v.begin(), v.end());
+        cout << n << endl;
+        for(auto x : v) {
+            cout << x << " " ;
+        }
+        cout << endl;
+    }
     return 0;
 }
