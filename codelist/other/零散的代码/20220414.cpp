@@ -1,37 +1,41 @@
-//
-// Created by onglu on 2022/4/14.
-//
-
-#include <bits/stdc++.h>
-
-#define all(a) a.begin(),a.end()
-#define rall(a) a.rbegin(),a.rend()
-
-#define endl '\n'
-#define lson (rt << 1)
-#define rson (rt << 1 | 1)
-#define Mid ((l + r) / 2)
-//#define int long long
+#include <iostream>
+#include <queue>
 using namespace std;
-const int N = 2e6 + 1009;
-//const int N = 2e5 + 1009;
-//const int N = 5009;
-//const int N = 309;
-int n, m, a[N];
-
-void work() {
-
-}
-
-signed main() {
-#ifdef LOCAL
-    freopen("C:\\Users\\onglu\\CLionProjects\\acm\\data.in", "r", stdin);
-    freopen("C:\\Users\\onglu\\CLionProjects\\acm\\data.out", "w", stdout);
-#endif
-    ios::sync_with_stdio(false);
-    cin.tie(0);
-    int Case = 1;
-//    cin >> Case;
-    while (Case--) work();
+/*
+ * 用一个队列存储遍历到的节点
+ * 每次取出队首，依次加入他的两个儿子
+ * 一开始把根节点存进队列就行
+ */
+struct node {
+    int val;
+    node *lson, *rson;
+    node(int mval) {
+        val = mval;
+        lson = rson = NULL;
+    }
+};
+int main()
+{
+    //建树，根节点的值是1，左右儿子分别是2,3，右儿子的左儿子是4
+    node root(1);
+    node l1(2);
+    node l2(3);
+    node l3(4);
+    root.lson = &l1;
+    root.rson = &l2;
+    l2.lson = &l3;
+    queue<node> q;
+    // 把根节点放入队列
+    q.push(root);
+    while(!q.empty()) {
+        //取出队首
+        node rt = q.front();
+        q.pop();
+        //输出值
+        cout << rt.val << " ";
+        //如果左右不为空就加入队列
+        if(rt.lson != NULL) q.push(*rt.lson);
+        if(rt.rson != NULL) q.push(*rt.rson);
+    }
     return 0;
 }
