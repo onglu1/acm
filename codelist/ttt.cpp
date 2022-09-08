@@ -1,49 +1,52 @@
 #include <bits/stdc++.h>
-#define int long long
 using namespace std;
-int n, m;
-struct node {
-    int l, r, x;
-} ;
-vector<pair<int, pair<int, int>> > a;
-vector<int> pre, val;
-int fid(int x) {
-    return (pre[x] == x) ? x : (pre[x] = fid(pre[x]));
-}
-signed main()
-{
-    ios ::sync_with_stdio(0);
-    cin.tie(0);
-    cin >> n >> m;
-    val = vector<int> (n + 1);
-    pre = vector<int> (n + 1);
-    for(int i = 1; i <= n; i++) pre[i] = i;
-    for(int i = 1; i <= m; i++) {
-        int l, r, t;
-        cin >> l >> r >> t;
-        l = max(l, 1ll);
-        r = min(r, n);
-        if(l <= r)
-            a.push_back({t, {l, r}});
+set<int> vis;
+map<int, vector<int>> ver;
+int n, m, a, b;
+void dfs(int x, int d) {
+    if(vis.count(x)) return ;
+    vis.insert(x);
+    if(x == a) {
+        cout << d << endl;
+        exit(0);
     }
-    sort(a.begin(), a.end());
-    for(auto p : a) {
-        int now = fid(p.second.second);
-        while(now >= p.second.first) {
-            val[now] = p.first;
-            pre[now] = fid(now - 1);
-            now = fid(now);
+    for(auto y : ver[x]) {
+        dfs(y, d + 1);
+    }
+}
+int main()
+{
+    cin >> n >> m;
+    string s;
+    getline(cin, s);
+    for(int i = 0; i < m; i++) {
+        getline(cin, s);
+        s += " ";
+        int x = -1, cnt = 0;
+        int fa;
+        for(int j = 0; j < s.size(); j++) {
+            if(isdigit(s[j])) {
+                if(x == -1) x = 0;
+                x = x * 10 + s[j] - '0';
+            } else {
+                if(x == -1) continue;
+                cnt++;
+                if(cnt == 1) fa = x;
+                else {
+                    ver[fa].push_back(x);
+                    ver[x].push_back(fa);
+                }
+                x = 0;
+            }
         }
     }
-    int ans = 0;
-    for(int i = 1; i <= n; i++) ans += val[i];
-    cout << ans << endl;
+    cin >> a >> b;
+    if(a == b) cout << -1 << endl;
+    else {
+        dfs(b, 0);
+        cout << -1 << endl;
+    }
     return 0;
 }
-/*
- 5
- 3
- 1 2 30
- 1 5 20
- 3 5 10
- */
+
+

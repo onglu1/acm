@@ -1,55 +1,36 @@
 #include <bits/stdc++.h>
 using namespace std;
-vector<int> g[5010];
-set<int> st;
-int vis[5010];
-void dfs(int x)
+int n, m, g[109][109];
+signed main()
 {
-    if(vis[x] == 1)
-    {
-        puts("-1");
-        exit(0);
+    cin >> n >> m;
+    memset(g, 0x3f, sizeof(g));
+    for(int i = 1; i <= n; i++) g[i][i] = 0;
+    for(int i = 1; i <= m; i++) {
+        int x, y;
+        cin >> x >> y;
+        g[x][y] = g[y][x] = min(g[x][y], 1);
     }
-    st.insert(x);
-    vis[x] = 1;
-    for(auto y : g[x])
-        dfs(y);
-    vis[x] = 0;
-}
-int main()
-{
-    int n, t;
-    cin >> n >> t;
-    for(int i = 0; i < n; i ++)
-    {
-        string a;
-        cin >> a;
-        int b = 0;
-        int flag = 0;
-        for(int j = 0; j < a.size(); j ++)
-        {
-            if(a[j] == ',')
-            {
-                if(flag == 0) {b = 0; flag = 1; continue;}
-                g[i].push_back(b);
-                b = 0;
-            }
-            else b = b * 10 + a[j] - '0';
-        }
-        if(flag == 0) {flag = 1; continue;}
-        g[i].push_back(b);
+    for(int k = 1; k <= n; k++)
+        for(int i = 1; i <= n; i++)
+            for(int j = 1; j <= n; j++)
+                g[i][j] = min(g[i][j], g[i][k] + g[k][j]);
+    int ans = 0;
+    int x;
+    cin >> x;
+    for(int i = 1; i <= n; i++) {
+        ans = max(ans, g[x][i]);
     }
-
-    dfs(t);
-    vector<int> ans;
-    for(auto x : st) if(x != t) ans.push_back(x);
-    if(ans.size() == 0) puts("null");
-    else
-    {
-        for(int i = 0; i < ans.size() - 1; i ++)
-            printf("%d,", ans[i]);
-        printf("%d\n", ans[ans.size() - 1]);
-    }
-
+    cout << 2 * ans << endl;
     return 0;
 }
+/*
+5 7
+2 1
+1 4
+2 4
+2 3
+3 4
+3 5
+4 5
+*/

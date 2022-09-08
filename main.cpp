@@ -1,95 +1,57 @@
 #include <bits/stdc++.h>
-#define endl '\n'
 using namespace std;
-const int N = 2e6 + 1009;
-struct Edge {
-    int to, w;
+int dx[] = {0, 0, 1, -1};
+int dy[] = {1, -1, 0, 0};
+int n, m;
+vector<vector<char> > mp;
+int ans[1009][1009][4];
+struct node {
+    int x, y, i, d;
 };
-int n, m, c, a[N], siz[N], mson[N], wmson[N];
-int cnt[N], col[N], sum, Son, ans[N];
-vector<Edge> son[N];
-
-void dfs1(int x, int pre) {
-    siz[x] = 1;
-    mson[x] = 0;
-    for(auto y : son[x]) if(y.to != pre) {
-            dfs1(y.to, x);
-            siz[x] += siz[y.to];
-            if(!mson[x] || siz[y.to] > siz[mson[x]]) {
-                wmson[x] = y.w;
-                mson[x] = y.to;
+bool operator<(const node &a, const node &b) {
+    return a.d > b.d;
+}
+priority_queue<node> q;
+int main(){
+    cin >> n >> m;
+    mp = vector<vector<char> > (n, vector<char>(m, 0));
+    memset(ans, 0x3f, sizeof(ans));
+    int tx, ty;
+    for(int i = 0; i < n; i++) {
+        for(int j = 0; j < m; j++) {
+            cin >> mp[i][j];
+            if(mp[i][j] == 'S') {
+                for(int k = 0; k < 4; k++) {
+                    ans[i][j][k] = 0;
+                    q.push({i, j, k, 0});
+                }
+            } else if(mp[i][j] == 'E') {
+                tx = i;
+                ty = j;
             }
         }
-}
-void add(int x, int pre, int v) {
-    for(auto y : son[x]) {
-        if(y.to == pre || y.to == Son) continue;
-        sum -= cnt[y.w];// * y.w * cnt[y.w] * y.w;
-        cnt[y.w] += v;
-        sum += cnt[y.w];// * y.w * cnt[y.w] * y.w;
-        add(y.to, x, v);
     }
-}
-void dfs2(int x, int pre, int keep) {
-    for(auto y : son[x]) {
-        if(y.to == pre || y.to == mson[x]) continue;
-        dfs2(y.to, x, 0);
+    while(!q.empty()) {
+        auto t = q.top();
+        q.pop();
+        if(ans[t.x][t.y][t.i] < t.d) continue;
+        for(int i = 0; i < 4; i++) {
+            int xx = t.x + dx[i];
+            int yy = t.y + dy[i];
+            if(xx < 0 || xx >= n || yy < 0 || yy >= m) continue;
+            if(mp[xx][yy] == 'X') continue;
+            int dd = t.d + 1;
+            if(t.i != i) dd += 1;
+            if(dd < ans[xx][yy][i]) {
+                ans[xx][yy][i] = dd;
+                q.push({xx, yy, i, dd});
+            }
+        }
     }
-    if(mson[x]) {
-        dfs2(mson[x], x, 1), Son = mson[x];
-        sum -= cnt[wmson[x]];// * wmson[x] * cnt[wmson[x]] * wmson[x];
-        cnt[wmson[x]] += 1;
-        sum += cnt[wmson[x]];// * wmson[x] * cnt[wmson[x]] * wmson[x];
-    }
-    add(x, pre, 1); Son = 0;
-    ans[x] = sum;
-    if(!keep) add(x, pre, -1), sum = 0;
-}
-void work() {
-    cin >> n >> m >> c;
-    for(int i = 1; i < n; i++) {
-        int x, y, w;
-        cin >> x >> y >> w;
-        son[x].push_back({y, w});
-        son[y].push_back({x, w});
-    }
-    dfs1(1, 0);
-    dfs2(1, 0, 1);
-    while(m--) {
-        int t;
-        cin >> t;
-        cout << ans[t] << endl;
-    }
-}
-
-signed main() {
-#ifdef LOCAL
-    freopen("C:\\Users\\onglu\\CLionProjects\\acm\\data.in", "r", stdin);
-    freopen("C:\\Users\\onglu\\CLionProjects\\acm\\data.out", "w", stdout);
-#endif
-    ios::sync_with_stdio(false);
-    cin.tie(0);
-    int Case = 1;
-//    cin >> Case;
-    while (Case--) work();
+    int t = *min_element(ans[tx][ty], ans[tx][ty] + 4);
+    if(t == 0x3f3f3f3f) cout << -1 << endl;
+    else cout << t;
     return 0;
 }
-/*
-11 6 10
-1 2 9
-2 3 1
-3 4 6
-2 5 7
-4 6 5
-5 7 7
-7 8 8
-7 9 3
-7 10 6
-3 11 3
-5
-7
-10
-6
-1
-5
- */
+
+
