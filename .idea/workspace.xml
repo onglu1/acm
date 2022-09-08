@@ -1,0 +1,996 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="acm" targetName="acm" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f63a447e-f239-4a91-9ec3-3d29221c8c2b" name="Changes" comment="20220313">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/big.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-4edce81c1bd1b53e660a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-d026de61e2b866bc433c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-d77be7f5e6b6ddc141fb.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2022-07-27T11-02-51-0442.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-acm-Debug-1b67170e9f915e3f1f6d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-32030f347e705533d934.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.22.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.22.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.22.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.22.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.22.3/CMakeRCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.22.3/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/acm.dir/codelist/Codeforces/Codeforces_Round_#804_(Div._2)/A.cpp.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/acm.dir/codelist/Codeforces/Codeforces_Round_#804_(Div._2)/A.cpp.obj.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/acm.dir/codelist/Codeforces/Codeforces_Round_#804_(Div._2)/B.cpp.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/acm.dir/codelist/Codeforces/Codeforces_Round_#804_(Div._2)/B.cpp.obj.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/acm.dir/codelist/Codeforces/Codeforces_Round_#804_(Div._2)/C.cpp.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/acm.dir/codelist/Codeforces/Codeforces_Round_#804_(Div._2)/C.cpp.obj.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/acm.dir/codelist/Codeforces/Codeforces_Round_#804_(Div._2)/D.cpp.obj.d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/acm.dir/codelist/other/零散的代码/20220705/danzi/B.cpp.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/acm.dir/codelist/other/零散的代码/20220705/danzi/C.cpp.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/acm.dir/codelist/other/零散的代码/20220705/tjq/A.cpp.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/acm.dir/codelist/牛客专题/数据结构/第2章_区间信息维护（二）/G_智乃酱的平方数列.cpp.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/acm.dir/codelist/牛客专题/数据结构/第2章_区间信息维护（二）/H_仓鼠的鸡蛋.cpp.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/acm.dir/codelist/牛客专题/数据结构/第2章_区间信息维护（二）/I_智乃酱的cube.cpp.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/acm.dir/t.cpp.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/Acwing/第四章 计算几何/2142.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/Atcoder/AtCoder Grand Contest 045/A.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/Atcoder/AtCoder Regular Contest 137/A.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/Atcoder/AtCoder Regular Contest 137/B.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/Atcoder/AtCoder Regular Contest 141/A.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/Atcoder/AtCoder Regular Contest 142/A.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/Atcoder/AtCoder Regular Contest 142/B.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/Atcoder/AtCoder Regular Contest 142/C.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/Atcoder/AtCoder Regular Contest 143/A.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/Atcoder/AtCoder Regular Contest 143/B.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/Atcoder/AtCoder Regular Contest 143/C.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/Atcoder/AtCoder Regular Contest 143/D.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/Atcoder/AtCoder Regular Contest 144/A.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/Atcoder/AtCoder Regular Contest 144/B.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/Atcoder/AtCoder Regular Contest 144/C.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/Atcoder/AtCoder Regular Contest 144/D.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/Atcoder/AtCoder Regular Contest 144/D1.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/ Codeforces Round #812 (Div. 2)/E.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/ Codeforces Round #813 (Div. 2)/A.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/ Codeforces Round #813 (Div. 2)/B.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/ Codeforces Round #813 (Div. 2)/C.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/ Codeforces Round #813 (Div. 2)/D.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/ Codeforces Round #813 (Div. 2)/E1.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/ Codeforces Round #813 (Div. 2)/E21.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/2020 ICPC Asia East Continent Final/A.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/2020 ICPC Asia East Continent Final/F.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/2020 ICPC Asia East Continent Final/L.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/2022 Jiangsu Collegiate Programming Contest/H.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/2022-团队练习赛01/F.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/CodeTON Round 2 (Div. 1 + Div. 2, Rated, Prizes!)/F.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/Codeforces Round #613 (Div. 2)/A.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/Codeforces Round #613 (Div. 2)/B.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/Codeforces Round #613 (Div. 2)/C.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/Codeforces Round #613 (Div. 2)/D.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/Codeforces Round #613 (Div. 2)/E.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/Codeforces Round #613 (Div. 2)/F.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/Codeforces Round #788 (Div. 2)/FF.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/Codeforces Round #804 (Div. 2)/A.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/Codeforces Round #804 (Div. 2)/B.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/Codeforces Round #804 (Div. 2)/C.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/Codeforces Round #804 (Div. 2)/D.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/Codeforces Round #814 (Div. 1)/A.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/Codeforces Round #819 (Div. 1 + Div. 2) and Grimoire of Code Annual Contest 2022/A.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/Codeforces Round #819 (Div. 1 + Div. 2) and Grimoire of Code Annual Contest 2022/B.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/Codeforces Round #819 (Div. 1 + Div. 2) and Grimoire of Code Annual Contest 2022/C.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/Codeforces Round #819 (Div. 1 + Div. 2) and Grimoire of Code Annual Contest 2022/D.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/Codeforces Round #819 (Div. 1 + Div. 2) and Grimoire of Code Annual Contest 2022/E.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/Educational Codeforces Round 134 (Rated for Div. 2)/A.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/The 17th Heilongjiang Provincial Collegiate Programming Contest/B.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/The 17th Heilongjiang Provincial Collegiate Programming Contest/C.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/The 17th Heilongjiang Provincial Collegiate Programming Contest/D.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/The 17th Heilongjiang Provincial Collegiate Programming Contest/E.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/The 17th Heilongjiang Provincial Collegiate Programming Contest/K.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/The 17th Heilongjiang Provincial Collegiate Programming Contest/L.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/Library Checker/Dynamic Tree Vertex Add Path Sum.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/Library Checker/Dynamic Tree Vertex Set Path Composite.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/POJ/2752-Seek the Name, Seek the Fame.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/gym/The 16th Heilongjiang Provincial Collegiate Programming Contest/I.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/1/06.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/1/Ball.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/1/Laser.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/1/String.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/1/t.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/10/04.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/10/08.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/10/09.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/10/guess4.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/10/t4.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/10/t8.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/10/t9.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/10/tms.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/10/tt9.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/2/C++ to Python.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/2/Luxury cruise ship.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/3/02.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/3/03.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/3/04.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/3/05.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/3/08.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/3/09.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/3/11.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/4/01.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/4/02.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/4/06.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/4/09.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/4/11.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/4/111.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/4/t.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/4/t09.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/5/10.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/5/12.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/5/3.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/5/6.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/5/8.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/5/t6.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/5/t8.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/5/tt6.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/6/1.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/6/11.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/6/6.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/6/7.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/6/8.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/6/9.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/6/test8.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/7/08.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/7/10.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/7/3.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/7/4.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/7/6.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/7/6bf.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/7/8.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/8/5.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/8/7.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/8/8.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/8/t7.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/8/tt.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/8/ttt.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/9/01.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/9/03.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/9/08.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/luogu/P1712 [NOI2016] 区间.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/luogu/P2147 [SDOI2008] 洞穴勘测.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/luogu/P2486 [SDOI2011]染色.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/luogu/P2542 [AHOI2005] 航线规划.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/luogu/P3203 [HNOI2010]弹飞绵羊.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/luogu/P3527 [POI2011]MET-Meteors.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/luogu/P3690 【模板】动态树（Link Cut Tree）.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/luogu/P3810 【模板】三维偏序（陌上花开）.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/luogu/P3834 【模板】可持久化线段树 2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/luogu/P4219 [BJOI2014]大融合.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/luogu/P6292 区间本质不同子串个数.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/luogu/trs.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/other/.cph/.t.cpp_ecd9a6413b2d58a111e007ffad7a86ce.prob" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/other/20220714/A.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/other/20220714/B.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/other/20220714/F.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/other/20220714/G.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/other/20220714/H.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/other/202207杭州/Day1/A.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/other/202207杭州/Day1/B.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/other/202207杭州/Day1/C.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/other/202207杭州/Day1/D.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/other/202207杭州/Day1/Day1-wly.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/other/202207杭州/Day1/tB.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/other/202207杭州/Day1/ttB.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/other/20220827百度之星/1.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/other/20220827百度之星/2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/other/20220827百度之星/3.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/other/20220827百度之星/5.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/other/20220827百度之星/A.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/other/零散的代码/11.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/other/零散的代码/2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/other/零散的代码/20220705/danzi/A.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/other/零散的代码/20220705/danzi/B.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/other/零散的代码/20220705/danzi/C.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/other/零散的代码/20220705/danzi/D.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/other/零散的代码/20220705/tjq/A.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/other/零散的代码/22.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/other/零散的代码/3.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/other/零散的代码/33.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/other/零散的代码/mihoyo/A.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/other/零散的代码/mihoyo/B.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/other/零散的代码/mihoyo/C.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/other/零散的代码/组队吃鸡.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/other/零散的代码/网易/t1.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/other/零散的代码/网易/t2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/other/零散的代码/网易/t3.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/other/零散的代码/网易/tt2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/t.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/test.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/实验课.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/博弈论/Calendar Game.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/博弈论/Deleting Divisors.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/博弈论/Digital Deletions.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/博弈论/Northcott Game.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/博弈论/Palindrome Game (easy version).cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/博弈论/Palindrome Game (hard version).cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/博弈论/Stone Game.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/博弈论/qwq.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/博弈论/tsg.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/博弈论/tt.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/博弈论/小牛再战.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/1/A.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/1/D.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/1/G.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/10/D.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/10/F.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/10/I.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/10/tD.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/10/tF.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/10/tI.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/2/E.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/2/EE.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/2/G.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/2/H.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/2/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/3/A.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/3/C.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/3/F.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/3/G.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/3/H.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/3/J.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/3/Journey.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/4/C.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/4/D.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/4/G.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/4/H.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/4/L.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/4/M.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/4/Mbf.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/4/t.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/4/tD.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/4/tG.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/4/tM.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/4/tle.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/4/ttt.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/4/wa.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/5/C.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/5/D.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/5/F.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/5/G.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/5/H.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/5/K.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/5/V.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/6/A.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/6/B.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/6/C.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/6/F.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/6/G.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/6/I.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/6/M.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/6/checkF.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/6/tC.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/7/A.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/7/F.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/7/J.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/7/K.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/8/D.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/8/F.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/8/tF.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/8/tt.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/9/3E.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/9/4E.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/9/5E.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/9/8E.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/9/C.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/9/E.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/9/F.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/9/G.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/9/I.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/9/anE.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/9/calLis.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/9/tC.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/9/tE.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/9/tt.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/加赛/C.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/加赛/G.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/加赛/H.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/加赛/K.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/加赛/tC.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/加赛/tK.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/字符串/1/[模板]KMP字符串匹配.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/字符串/1/数一数.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/字符串/1/栗酱的数列.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/字符串/SAM/NSUBSTR - Substrings.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/字符串/SAM/Typewriter.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/字符串/SAM/t.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/字符串/SAM/tt.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/字符串/SAM/【模板】后缀自动机 (SAM).cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/字符串/SAM/多模式最长公共子串.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/字符串/SAM/最长公共子串.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/字符串/SAM/本质不同公共子串个数.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/字符串/SAM/本质不同子串个数.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/字符串/SAM/葫芦的考验之定位子串.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/字符串/SAM/葫芦的考验之定位子串2.0.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/小白月赛54/A.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/小白月赛54/B.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/小白月赛54/C.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/小白月赛54/D.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/小白月赛54/E.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/小白月赛54/F.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/小白月赛54/tE.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/数据结构/LCT/[SDOI2008]CAVE 洞穴勘测.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/数据结构/LCT/[SDOI2017]树点涂色.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/数据结构/LCT/智乃的LCA.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/数据结构/LCT/魔法森林.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/数据结构/LCT/魔法森林1.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/数据结构/第2章 区间信息维护（二）/G 智乃酱的平方数列.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/数据结构/第2章 区间信息维护（二）/H 仓鼠的鸡蛋.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/数据结构/第2章 区间信息维护（二）/I 智乃酱的cube.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/数据结构/第2章 区间信息维护（二）/J 智乃酱的双塔问题·极（带修改的DP，DDP）.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/数据结构/第2章 区间信息维护（二）/K 智乃酱的双塔问题·改.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/数据结构/第3章 区间信息维护（三）/C 势能线段树模板题二.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/数据结构/第3章 区间信息维护（三）/D 势能线段树模板题一.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/t.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tq.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tt.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/2.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codelist/gym/The 16th Heilongjiang Provincial Collegiate Programming Contest/H.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/codelist/gym/The 16th Heilongjiang Provincial Collegiate Programming Contest/H.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codelist/other/20220305PTA/L1-1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/codelist/other/20220305PTA/L1-1.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codelist/ttt.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/codelist/ttt.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2021" />
+    <option name="minorVersion" value="3.1" />
+  </component>
+  <component name="ProjectId" id="25YcT1qa1rpHo3KkwYUHDCiwTq9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "C:/Users/onglu/.ssh/id_rsa",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "http.proxy",
+    "two.files.diff.last.used.file": "C:/Users/onglu/CLionProjects/acm/codelist/luogu/P3690 【模板】动态树（Link Cut Tree）2.cpp"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\onglu\CLionProjects\acm" />
+      <recent name="C:\Users\onglu\CLionProjects\acm\codelist\luogu" />
+      <recent name="C:\Users\onglu\CLionProjects\acm\codelist\牛客专题\多校\3" />
+      <recent name="C:\Users\onglu\CLionProjects\acm\codelist\牛客专题\数据结构\第2章 区间信息维护（二）" />
+      <recent name="C:\Users\onglu\CLionProjects\acm\codelist\other\零散的代码\20220705\danzi" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\onglu\CLionProjects\acm\codelist\other\零散的代码\网易" />
+      <recent name="C:\Users\onglu\CLionProjects\acm\codelist\other\组队吃鸡" />
+      <recent name="C:\Users\onglu\CLionProjects\acm\codelist\牛客专题\多校\10" />
+      <recent name="C:\Users\onglu\CLionProjects\acm\codelist\hdu\2022“杭电杯”中国大学生算法设计超级联赛" />
+      <recent name="C:\Users\onglu\CLionProjects\acm\codelist\牛客专题\多校\3" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Custom Build Application.c++compile">
+    <configuration name="c++compile" type="CLionExternalRunConfiguration" factoryName="Application" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="acm" TARGET_NAME="c++compile" CONFIG_NAME="c++compile" RUN_PATH="$PROJECT_DIR$/a.exe">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="acm" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="-Wl,--stack,524288000 " REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="acm" TARGET_NAME="acm" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="acm" RUN_TARGET_NAME="acm">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.acm" />
+      <item itemvalue="Custom Build Application.c++compile" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\onglu\AppData\Roaming\Subversion</configuration>
+    <option name="sshConnectionType" value="PRIVATE_KEY" />
+    <option name="sshPrivateKeyPath" value="C:\Users\onglu\.ssh\id_rsa" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f63a447e-f239-4a91-9ec3-3d29221c8c2b" name="Changes" comment="" />
+      <created>1645707468184</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1645707468184</updated>
+      <workItem from="1645707470103" duration="1620000" />
+      <workItem from="1645748509138" duration="266000" />
+      <workItem from="1645748793965" duration="2086000" />
+      <workItem from="1645770212175" duration="944000" />
+      <workItem from="1645771180008" duration="8081000" />
+      <workItem from="1645791965935" duration="4776000" />
+      <workItem from="1645838336589" duration="8762000" />
+      <workItem from="1645859904812" duration="13574000" />
+      <workItem from="1645941965105" duration="3000" />
+      <workItem from="1645946750189" duration="3559000" />
+      <workItem from="1645960123591" duration="2908000" />
+      <workItem from="1646005966346" duration="53000" />
+      <workItem from="1646029124693" duration="2503000" />
+      <workItem from="1646098964230" duration="2187000" />
+      <workItem from="1646102199711" duration="6305000" />
+      <workItem from="1646200463591" duration="11634000" />
+      <workItem from="1646215000600" duration="4523000" />
+      <workItem from="1646293008279" duration="3118000" />
+      <workItem from="1646320713190" duration="7000" />
+      <workItem from="1646353159303" duration="4702000" />
+      <workItem from="1646442299717" duration="2936000" />
+      <workItem from="1646452761962" duration="599000" />
+      <workItem from="1646455591779" duration="9174000" />
+      <workItem from="1646471876475" duration="4000" />
+      <workItem from="1646482466329" duration="812000" />
+      <workItem from="1646487584064" duration="157000" />
+      <workItem from="1646547060059" duration="7113000" />
+      <workItem from="1646584395231" duration="40000" />
+      <workItem from="1646584649899" duration="768000" />
+      <workItem from="1646638214930" duration="3577000" />
+      <workItem from="1646655810593" duration="434000" />
+      <workItem from="1646656261938" duration="60000" />
+      <workItem from="1646656326020" duration="2197000" />
+      <workItem from="1646736467833" duration="31000" />
+      <workItem from="1646806536510" duration="11129000" />
+      <workItem from="1646922521845" duration="9056000" />
+      <workItem from="1646966277213" duration="792000" />
+      <workItem from="1647013687769" duration="16000" />
+      <workItem from="1647071697780" duration="5000" />
+      <workItem from="1647072012059" duration="1000" />
+      <workItem from="1647081147826" duration="13912000" />
+      <workItem from="1647142583517" duration="7588000" />
+      <workItem from="1647171049550" duration="1224000" />
+      <workItem from="1647251605673" duration="2283000" />
+      <workItem from="1647260297663" duration="1786000" />
+      <workItem from="1647400891734" duration="4601000" />
+      <workItem from="1647413830455" duration="83000" />
+      <workItem from="1647413932214" duration="6305000" />
+      <workItem from="1647484891938" duration="21000" />
+      <workItem from="1647537003292" duration="78000" />
+      <workItem from="1647569491588" duration="1521000" />
+      <workItem from="1647605157617" duration="9819000" />
+      <workItem from="1647687603166" duration="11217000" />
+      <workItem from="1647699329119" duration="607000" />
+      <workItem from="1647707143551" duration="601000" />
+      <workItem from="1647755190078" duration="8451000" />
+      <workItem from="1647929184619" duration="4973000" />
+      <workItem from="1647959625438" duration="4532000" />
+      <workItem from="1648020773301" duration="7677000" />
+      <workItem from="1648036582412" duration="195000" />
+      <workItem from="1648039033315" duration="1966000" />
+      <workItem from="1648041544499" duration="38000" />
+      <workItem from="1648048169261" duration="2064000" />
+      <workItem from="1648100840016" duration="12000" />
+      <workItem from="1648132568954" duration="2546000" />
+      <workItem from="1648187802173" duration="2000" />
+      <workItem from="1648192555882" duration="11807000" />
+      <workItem from="1648226765710" duration="1938000" />
+      <workItem from="1648273367318" duration="2816000" />
+      <workItem from="1648280252498" duration="1610000" />
+      <workItem from="1648282928549" duration="1554000" />
+      <workItem from="1648292369176" duration="9931000" />
+      <workItem from="1648347371566" duration="11292000" />
+      <workItem from="1648359362948" duration="1270000" />
+      <workItem from="1648379900734" duration="9904000" />
+      <workItem from="1648460810563" duration="180000" />
+      <workItem from="1648469304058" duration="3375000" />
+      <workItem from="1648525342616" duration="1259000" />
+      <workItem from="1648556373904" duration="7212000" />
+      <workItem from="1648639090501" duration="1019000" />
+      <workItem from="1648641874130" duration="4851000" />
+      <workItem from="1648776394882" duration="595000" />
+      <workItem from="1648793764484" duration="6844000" />
+      <workItem from="1648816363281" duration="121000" />
+      <workItem from="1648817005596" duration="632000" />
+      <workItem from="1648819278738" duration="8411000" />
+      <workItem from="1648893444506" duration="11863000" />
+      <workItem from="1648950410253" duration="11837000" />
+      <workItem from="1649033875449" duration="7627000" />
+      <workItem from="1649058501687" duration="77000" />
+      <workItem from="1649064787849" duration="7229000" />
+      <workItem from="1649140073726" duration="12881000" />
+      <workItem from="1649165196827" duration="2194000" />
+      <workItem from="1649208876490" duration="8227000" />
+      <workItem from="1649298630621" duration="28000" />
+      <workItem from="1649303142854" duration="4215000" />
+      <workItem from="1649312913786" duration="1441000" />
+      <workItem from="1649315616907" duration="8346000" />
+      <workItem from="1649335168587" duration="2589000" />
+      <workItem from="1649341758487" duration="10420000" />
+      <workItem from="1649391185751" duration="10000" />
+      <workItem from="1649396341793" duration="4589000" />
+      <workItem from="1649403192407" duration="4843000" />
+      <workItem from="1649414133578" duration="6131000" />
+      <workItem from="1649426677538" duration="1853000" />
+      <workItem from="1649463496468" duration="63000" />
+      <workItem from="1649496190468" duration="1304000" />
+      <workItem from="1649511071682" duration="594000" />
+      <workItem from="1649567157253" duration="9160000" />
+      <workItem from="1649577600082" duration="1673000" />
+      <workItem from="1649595961873" duration="6571000" />
+      <workItem from="1649610279437" duration="1000000" />
+      <workItem from="1649682561879" duration="365000" />
+      <workItem from="1649683317134" duration="4888000" />
+      <workItem from="1649730911608" duration="4871000" />
+      <workItem from="1649753446451" duration="2051000" />
+      <workItem from="1649818865283" duration="2377000" />
+      <workItem from="1649865254180" duration="623000" />
+      <workItem from="1649899858316" duration="21526000" />
+      <workItem from="1649941352788" duration="4461000" />
+      <workItem from="1650004126940" duration="2271000" />
+      <workItem from="1650010811237" duration="4994000" />
+      <workItem from="1650020865332" duration="3531000" />
+      <workItem from="1650196572438" duration="2821000" />
+      <workItem from="1650206329776" duration="3598000" />
+      <workItem from="1650252026840" duration="4847000" />
+      <workItem from="1650292675869" duration="3248000" />
+      <workItem from="1650364563732" duration="1850000" />
+      <workItem from="1650371758776" duration="6020000" />
+      <workItem from="1650436084456" duration="11862000" />
+      <workItem from="1650462710345" duration="10000" />
+      <workItem from="1650464116821" duration="1151000" />
+      <workItem from="1650600645835" duration="596000" />
+      <workItem from="1650635078960" duration="6271000" />
+      <workItem from="1650766804042" duration="785000" />
+      <workItem from="1650781173917" duration="3000" />
+      <workItem from="1650782575416" duration="8109000" />
+      <workItem from="1650804768772" duration="3059000" />
+      <workItem from="1650815718950" duration="1212000" />
+      <workItem from="1650870112683" duration="734000" />
+      <workItem from="1650945939544" duration="8206000" />
+      <workItem from="1650989550323" duration="32973000" />
+      <workItem from="1651084365999" duration="4336000" />
+      <workItem from="1651134887436" duration="549000" />
+      <workItem from="1651135457828" duration="4159000" />
+      <workItem from="1651159542255" duration="468000" />
+      <workItem from="1651203445720" duration="914000" />
+      <workItem from="1651211992909" duration="12528000" />
+      <workItem from="1651300111549" duration="283000" />
+      <workItem from="1651312222496" duration="5897000" />
+      <workItem from="1651329074913" duration="712000" />
+      <workItem from="1651463801325" duration="1821000" />
+      <workItem from="1651570234210" duration="615000" />
+      <workItem from="1651639490221" duration="1783000" />
+      <workItem from="1651725554108" duration="11000" />
+      <workItem from="1651847518845" duration="7839000" />
+      <workItem from="1651917511781" duration="13150000" />
+      <workItem from="1652020414645" duration="3047000" />
+      <workItem from="1652094008163" duration="8861000" />
+      <workItem from="1652144752432" duration="2000" />
+      <workItem from="1652149684388" duration="25000" />
+      <workItem from="1652263201869" duration="9290000" />
+      <workItem from="1652317029079" duration="12470000" />
+      <workItem from="1652362441726" duration="203000" />
+      <workItem from="1652362666723" duration="2645000" />
+      <workItem from="1652370512732" duration="3502000" />
+      <workItem from="1652374058270" duration="1215000" />
+      <workItem from="1652404122891" duration="19882000" />
+      <workItem from="1652441525186" duration="475000" />
+      <workItem from="1652442234302" duration="7382000" />
+      <workItem from="1652515164943" duration="16372000" />
+      <workItem from="1652578920359" duration="2197000" />
+      <workItem from="1652582210533" duration="4024000" />
+      <workItem from="1652604522354" duration="1784000" />
+      <workItem from="1652612834712" duration="893000" />
+      <workItem from="1652613751448" duration="469000" />
+      <workItem from="1652614241351" duration="4686000" />
+      <workItem from="1652686394603" duration="593000" />
+      <workItem from="1652771040443" duration="8224000" />
+      <workItem from="1652867991342" duration="1644000" />
+      <workItem from="1652869727726" duration="8479000" />
+      <workItem from="1652890097769" duration="856000" />
+      <workItem from="1652917955756" duration="3910000" />
+      <workItem from="1653043362281" duration="599000" />
+      <workItem from="1653066801421" duration="3000" />
+      <workItem from="1653151447559" duration="15000" />
+      <workItem from="1653203919747" duration="2855000" />
+      <workItem from="1653289941774" duration="3000" />
+      <workItem from="1653316439569" duration="7205000" />
+      <workItem from="1653534362069" duration="10000" />
+      <workItem from="1653536731186" duration="1198000" />
+      <workItem from="1653566940464" duration="16905000" />
+      <workItem from="1653721964319" duration="600000" />
+      <workItem from="1653742571471" duration="12816000" />
+      <workItem from="1653762336917" duration="12830000" />
+      <workItem from="1653823286778" duration="6974000" />
+      <workItem from="1653839204276" duration="13958000" />
+      <workItem from="1653980611715" duration="13284000" />
+      <workItem from="1654038552335" duration="230000" />
+      <workItem from="1654039100256" duration="38000" />
+      <workItem from="1654094759264" duration="91000" />
+      <workItem from="1654247608530" duration="95000" />
+      <workItem from="1654301502066" duration="55000" />
+      <workItem from="1654396998482" duration="3059000" />
+      <workItem from="1654582996992" duration="2380000" />
+      <workItem from="1654672743985" duration="196000" />
+      <workItem from="1654672958666" duration="716000" />
+      <workItem from="1654857239056" duration="3115000" />
+      <workItem from="1654935736214" duration="404000" />
+      <workItem from="1654936155721" duration="3580000" />
+      <workItem from="1655046311959" duration="2987000" />
+      <workItem from="1655276307785" duration="887000" />
+      <workItem from="1655306776393" duration="2215000" />
+      <workItem from="1655311767353" duration="58000" />
+      <workItem from="1655510737075" duration="13605000" />
+      <workItem from="1655706558319" duration="179000" />
+      <workItem from="1655708755489" duration="9000" />
+      <workItem from="1656008976189" duration="4330000" />
+      <workItem from="1656066372708" duration="17000" />
+      <workItem from="1656070998550" duration="2091000" />
+      <workItem from="1656082926694" duration="12807000" />
+      <workItem from="1656137889137" duration="3130000" />
+      <workItem from="1656229377094" duration="6269000" />
+      <workItem from="1656259993536" duration="10000" />
+      <workItem from="1656262068372" duration="57000" />
+      <workItem from="1656340180550" duration="37000" />
+      <workItem from="1656555673047" duration="1688000" />
+      <workItem from="1656644649097" duration="2986000" />
+      <workItem from="1656744655320" duration="614000" />
+      <workItem from="1656823074912" duration="11000" />
+      <workItem from="1656823358563" duration="23000" />
+      <workItem from="1656853878213" duration="1705000" />
+      <workItem from="1656937728018" duration="1350000" />
+      <workItem from="1656945998125" duration="6214000" />
+      <workItem from="1656960642199" duration="2734000" />
+      <workItem from="1656983789777" duration="5773000" />
+      <workItem from="1657108043214" duration="3090000" />
+      <workItem from="1657132893243" duration="1100000" />
+      <workItem from="1657283206811" duration="3974000" />
+      <workItem from="1657335279913" duration="1916000" />
+      <workItem from="1657340469666" duration="4469000" />
+      <workItem from="1657345332670" duration="16315000" />
+      <workItem from="1657371097931" duration="1097000" />
+      <workItem from="1657461098428" duration="21221000" />
+      <workItem from="1657629835790" duration="1265000" />
+      <workItem from="1657676707516" duration="12616000" />
+      <workItem from="1657702752905" duration="5035000" />
+      <workItem from="1657777216641" duration="13113000" />
+      <workItem from="1657864283864" duration="10998000" />
+      <workItem from="1657899831914" duration="11207000" />
+      <workItem from="1657958314863" duration="3705000" />
+      <workItem from="1657971968293" duration="7039000" />
+      <workItem from="1658082776668" duration="3534000" />
+      <workItem from="1658198277267" duration="9468000" />
+      <workItem from="1658245770510" duration="221000" />
+      <workItem from="1658319206168" duration="2042000" />
+      <workItem from="1658399343873" duration="2697000" />
+      <workItem from="1658463765372" duration="1859000" />
+      <workItem from="1658486228252" duration="45566000" />
+      <workItem from="1658622265051" duration="8974000" />
+      <workItem from="1658721428026" duration="19330000" />
+      <workItem from="1658751451273" duration="8502000" />
+      <workItem from="1658801555944" duration="26804000" />
+      <workItem from="1658919769008" duration="8217000" />
+      <workItem from="1658966952312" duration="9490000" />
+      <workItem from="1658980718514" duration="10920000" />
+      <workItem from="1659080017566" duration="536000" />
+      <workItem from="1659080985873" duration="9493000" />
+      <workItem from="1659106093113" duration="4606000" />
+      <workItem from="1659153069132" duration="9511000" />
+      <workItem from="1659162665846" duration="18970000" />
+      <workItem from="1659229590264" duration="15157000" />
+      <workItem from="1659326759027" duration="14595000" />
+      <workItem from="1659373642971" duration="122000" />
+      <workItem from="1659412771356" duration="21561000" />
+      <workItem from="1659490514958" duration="28419000" />
+      <workItem from="1659542114554" duration="853000" />
+      <workItem from="1659586048322" duration="22330000" />
+      <workItem from="1659672141196" duration="4197000" />
+      <workItem from="1659688467708" duration="13570000" />
+      <workItem from="1659758342962" duration="10549000" />
+      <workItem from="1659840582607" duration="21583000" />
+      <workItem from="1659870819111" duration="13109000" />
+      <workItem from="1659931033284" duration="3713000" />
+      <workItem from="1659947416395" duration="2075000" />
+      <workItem from="1659949878865" duration="339000" />
+      <workItem from="1659964190439" duration="2037000" />
+      <workItem from="1660018118115" duration="23619000" />
+      <workItem from="1660179253392" duration="22938000" />
+      <workItem from="1660271655784" duration="1516000" />
+      <workItem from="1660295866004" duration="763000" />
+      <workItem from="1660301733090" duration="8398000" />
+      <workItem from="1660363295877" duration="17377000" />
+      <workItem from="1660535972348" duration="25484000" />
+      <workItem from="1660622316635" duration="10907000" />
+      <workItem from="1660708640675" duration="16489000" />
+      <workItem from="1660795259208" duration="16395000" />
+      <workItem from="1660869399145" duration="23357000" />
+      <workItem from="1660958808840" duration="11362000" />
+      <workItem from="1660984587225" duration="3766000" />
+      <workItem from="1661154583547" duration="2965000" />
+      <workItem from="1661176903045" duration="594000" />
+      <workItem from="1661241399075" duration="1592000" />
+      <workItem from="1661272468600" duration="4369000" />
+      <workItem from="1661298843144" duration="16077000" />
+      <workItem from="1661480779677" duration="2000" />
+      <workItem from="1661580037561" duration="5152000" />
+      <workItem from="1661585883930" duration="908000" />
+      <workItem from="1661590813351" duration="9000" />
+      <workItem from="1661593473290" duration="5119000" />
+      <workItem from="1661605518557" duration="2336000" />
+      <workItem from="1661610091212" duration="771000" />
+      <workItem from="1662000315735" duration="13626000" />
+      <workItem from="1662095752673" duration="9815000" />
+      <workItem from="1662293526470" duration="5824000" />
+      <workItem from="1662342593108" duration="9000" />
+      <workItem from="1662342899784" duration="1980000" />
+      <workItem from="1662386713299" duration="1434000" />
+      <workItem from="1662475361940" duration="3543000" />
+      <workItem from="1662559546563" duration="2877000" />
+      <workItem from="1662602830675" duration="6326000" />
+      <workItem from="1662632592888" duration="145000" />
+      <workItem from="1662632748347" duration="1232000" />
+    </task>
+    <task id="LOCAL-00001" summary="20220309">
+      <created>1646810578113</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1646810578113</updated>
+    </task>
+    <task id="LOCAL-00002" summary="20220309">
+      <created>1647143159354</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1647143159354</updated>
+    </task>
+    <task id="LOCAL-00003" summary="20220313">
+      <created>1647156117011</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1647156117011</updated>
+    </task>
+    <task id="LOCAL-00004" summary="20220313">
+      <created>1647156245736</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1647156245736</updated>
+    </task>
+    <task id="LOCAL-00005" summary="20220313">
+      <created>1647537032460</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1647537032460</updated>
+    </task>
+    <task id="LOCAL-00006" summary="20220313">
+      <created>1647537049739</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1647537049739</updated>
+    </task>
+    <task id="LOCAL-00007" summary="20220313">
+      <created>1647687620071</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1647687620071</updated>
+    </task>
+    <task id="LOCAL-00008" summary="20220313">
+      <created>1647929659604</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1647929659604</updated>
+    </task>
+    <task id="LOCAL-00009" summary="20220313">
+      <created>1647932511413</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1647932511413</updated>
+    </task>
+    <task id="LOCAL-00010" summary="20220313">
+      <created>1647933454094</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1647933454094</updated>
+    </task>
+    <task id="LOCAL-00011" summary="20220313">
+      <created>1648950427153</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1648950427153</updated>
+    </task>
+    <task id="LOCAL-00012" summary="20220313">
+      <created>1648950480081</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1648950480081</updated>
+    </task>
+    <task id="LOCAL-00013" summary="20220313">
+      <created>1648950487794</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1648950487794</updated>
+    </task>
+    <task id="LOCAL-00014" summary="20220313">
+      <created>1649090449305</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1649090449305</updated>
+    </task>
+    <task id="LOCAL-00015" summary="20220313">
+      <created>1649819133544</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1649819133544</updated>
+    </task>
+    <task id="LOCAL-00016" summary="20220313">
+      <created>1649899913008</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1649899913008</updated>
+    </task>
+    <task id="LOCAL-00017" summary="20220313">
+      <created>1649919388740</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1649919388740</updated>
+    </task>
+    <task id="LOCAL-00018" summary="20220313">
+      <created>1651135613911</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1651135613911</updated>
+    </task>
+    <task id="LOCAL-00019" summary="20220313">
+      <created>1651253873557</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1651253873557</updated>
+    </task>
+    <task id="LOCAL-00020" summary="20220313">
+      <created>1662632606592</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1662632606592</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="20220309" />
+    <MESSAGE value="20220313" />
+    <option name="LAST_COMMIT_MESSAGE" value="20220313" />
+    <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/codelist/other/蓝桥杯校赛/纸牌序列问题 .cpp</url>
+          <line>54</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/codelist/Atcoder/AtCoder Beginner Contest 234/E.cpp</url>
+          <line>11</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/codelist/gym/2021 Jiangsu Collegiate Programming Contest/A.cpp</url>
+          <line>6</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/7/6.cpp</url>
+          <line>109</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>2</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="M[make_pair(n, make_pair(m, k))]" language="ObjectiveC" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
