@@ -16,6 +16,7 @@ priority_queue<node> q;
 int out_bound(int x, int y) {
     return x < 0 || x >= n || y < 0 || y >= m;
 }
+
 signed main() {
     ios ::sync_with_stdio(0);
     cin.tie(0);
