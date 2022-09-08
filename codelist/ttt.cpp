@@ -1,55 +1,52 @@
-#include <iostream>
-#include <algorithm>
-#include <cstdio>
-#include <queue>
-#include <string.h>
-#include <string>
-#include <map>
-#include <set>
-#define pii pair<int, int>
-#define Mid ((l + r) / 2)
-#define lson (rt << 1)
-#define rson (rt << 1 | 1)
+#include <bits/stdc++.h>
 using namespace std;
-int read() {
-    char c; int num, f = 1;
-    while(c = getchar(),!isdigit(c)) if(c == '-') f = -1; num = c - '0';
-    while(c = getchar(), isdigit(c)) num = num * 10 + c - '0';
-    return f * num;
-}
-namespace KMP {
-    void get_next(char *t, int m, int *nxt) {
-        int j = nxt[0] = 0;
-        for(int i = 1; i < m; i++) {
-            while(j && t[i] != t[j]) j = nxt[j - 1];
-            nxt[i] = j += (t[i] == t[j]);
-        }
+set<int> vis;
+map<int, vector<int>> ver;
+int n, m, a, b;
+void dfs(int x, int d) {
+    if(vis.count(x)) return ;
+    vis.insert(x);
+    if(x == a) {
+        cout << d << endl;
+        exit(0);
     }
-    vector<int> find(char *t, int m, int *nxt, char *s, int n) {
-        vector<int> ans;
-        int j = 0;
-        for(int i = 0; i < n; i++) {
-            while(j && s[i] != t[j]) j = nxt[j - 1];
-            j += s[i] == t[j];
-            if(j == m) {
-                ans.push_back(i - m + 1);
-                j = nxt[j - 1];
+    for(auto y : ver[x]) {
+        dfs(y, d + 1);
+    }
+}
+int main()
+{
+    cin >> n >> m;
+    string s;
+    getline(cin, s);
+    for(int i = 0; i < m; i++) {
+        getline(cin, s);
+        s += " ";
+        int x = -1, cnt = 0;
+        int fa;
+        for(int j = 0; j < s.size(); j++) {
+            if(isdigit(s[j])) {
+                if(x == -1) x = 0;
+                x = x * 10 + s[j] - '0';
+            } else {
+                if(x == -1) continue;
+                cnt++;
+                if(cnt == 1) fa = x;
+                else {
+                    ver[fa].push_back(x);
+                    ver[x].push_back(fa);
+                }
+                x = 0;
             }
         }
-        return ans;
     }
-}
-const int N = 2e6 + 1009;
-int nxt[N];
-char s[N], t[N];
-signed main()
-{
-    scanf("%s%s", s, t);
-    int n = strlen(s), m = strlen(t);
-    KMP :: get_next(s, n, nxt);
-//    vector<int> pos = KMP :: find(t, m, nxt, s, n);
-//    for(auto x : pos) printf("%d\n", x + 1);
-//    for(int i = 0; i < m; i++) printf("%d%c", nxt[i], " \n"[i == m - 1]);
-    for(int i = 0; i < n; i++) cout << nxt[i] << " ";
+    cin >> a >> b;
+    if(a == b) cout << -1 << endl;
+    else {
+        dfs(b, 0);
+        cout << -1 << endl;
+    }
     return 0;
 }
+
+

@@ -1,9 +1,5 @@
 //
-<<<<<<<< HEAD:codelist/gym/The 16th Heilongjiang Provincial Collegiate Programming Contest/H.cpp
-// Created by onglu on 2022/5/11.
-========
 // Created by onglu on 2022/9/6.
->>>>>>>> origin/master:codelist/Codeforces/Codeforces Round #814 (Div. 1)/B.cpp
 //
 
 #include <bits/stdc++.h>
@@ -21,11 +17,25 @@ const int N = 2e6 + 1009;
 //const int N = 2e5 + 1009;
 //const int N = 5009;
 //const int N = 309;
-int n, m, a[N];
-long long f[N];
+int n, m, a[N], f[N];
+map<int, int> M;
 void work() {
     cin >> n;
     for(int i = 1; i <= n; i++) cin >> a[i];
+    M.clear();
+    M[0] = 0;
+    int prexor = 0;
+    for(int i = 1; i <= n; i++) {
+        f[i] = f[i - 1] + 1;
+        if(M.count(prexor ^ a[i])) {
+            f[i] = min(f[i], M[prexor ^ a[i]] + i - 1);
+        }
+        prexor ^= a[i];
+        if(M.count(prexor)) M[prexor] = min(M[prexor], f[i] - i);
+        else M[prexor] = f[i] - i;
+    }
+    // cout << f[2] << endl;
+    cout << f[n] << endl;
 }
 
 signed main() {
@@ -35,19 +45,8 @@ signed main() {
 #endif
     ios::sync_with_stdio(false);
     cin.tie(0);
-<<<<<<<< HEAD:codelist/gym/The 16th Heilongjiang Provincial Collegiate Programming Contest/H.cpp
-    int t;
-    cin >> n >> t;
-//    cout << n << endl;
-    for(int i = 1; i < n; i++) {
-        cout << n - i + 1 << " " << n - i << endl;
-    }
-    cout << 1 << " " << n << endl;
-========
     int Case = 1;
-    for(int i = 1; i <= )
-    // cin >> Case;
+    cin >> Case;
     while(Case--) work();
->>>>>>>> origin/master:codelist/Codeforces/Codeforces Round #814 (Div. 1)/B.cpp
     return 0;
 }
