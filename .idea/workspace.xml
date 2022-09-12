@@ -18,346 +18,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f63a447e-f239-4a91-9ec3-3d29221c8c2b" name="Changes" comment="20220313">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/big.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-4edce81c1bd1b53e660a.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-d026de61e2b866bc433c.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-d77be7f5e6b6ddc141fb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2022-07-27T11-02-51-0442.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-acm-Debug-1b67170e9f915e3f1f6d.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-32030f347e705533d934.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.22.3/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.22.3/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.22.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.22.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.22.3/CMakeRCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.22.3/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/a.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/a.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/acm.dir/codelist/Codeforces/Codeforces_Round_#804_(Div._2)/A.cpp.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/acm.dir/codelist/Codeforces/Codeforces_Round_#804_(Div._2)/A.cpp.obj.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/acm.dir/codelist/Codeforces/Codeforces_Round_#804_(Div._2)/B.cpp.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/acm.dir/codelist/Codeforces/Codeforces_Round_#804_(Div._2)/B.cpp.obj.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/acm.dir/codelist/Codeforces/Codeforces_Round_#804_(Div._2)/C.cpp.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/acm.dir/codelist/Codeforces/Codeforces_Round_#804_(Div._2)/C.cpp.obj.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/acm.dir/codelist/Codeforces/Codeforces_Round_#804_(Div._2)/D.cpp.obj.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/acm.dir/codelist/other/零散的代码/20220705/danzi/B.cpp.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/acm.dir/codelist/other/零散的代码/20220705/danzi/C.cpp.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/acm.dir/codelist/other/零散的代码/20220705/tjq/A.cpp.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/acm.dir/codelist/牛客专题/数据结构/第2章_区间信息维护（二）/G_智乃酱的平方数列.cpp.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/acm.dir/codelist/牛客专题/数据结构/第2章_区间信息维护（二）/H_仓鼠的鸡蛋.cpp.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/acm.dir/codelist/牛客专题/数据结构/第2章_区间信息维护（二）/I_智乃酱的cube.cpp.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/acm.dir/t.cpp.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/.vscode/settings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/Acwing/第四章 计算几何/2142.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/Atcoder/AtCoder Grand Contest 045/A.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/Atcoder/AtCoder Regular Contest 137/A.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/Atcoder/AtCoder Regular Contest 137/B.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/Atcoder/AtCoder Regular Contest 141/A.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/Atcoder/AtCoder Regular Contest 142/A.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/Atcoder/AtCoder Regular Contest 142/B.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/Atcoder/AtCoder Regular Contest 142/C.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/Atcoder/AtCoder Regular Contest 143/A.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/Atcoder/AtCoder Regular Contest 143/B.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/Atcoder/AtCoder Regular Contest 143/C.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/Atcoder/AtCoder Regular Contest 143/D.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/Atcoder/AtCoder Regular Contest 144/A.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/Atcoder/AtCoder Regular Contest 144/B.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/Atcoder/AtCoder Regular Contest 144/C.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/Atcoder/AtCoder Regular Contest 144/D.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/Atcoder/AtCoder Regular Contest 144/D1.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/ Codeforces Round #812 (Div. 2)/E.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/ Codeforces Round #813 (Div. 2)/A.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/ Codeforces Round #813 (Div. 2)/B.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/ Codeforces Round #813 (Div. 2)/C.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/ Codeforces Round #813 (Div. 2)/D.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/ Codeforces Round #813 (Div. 2)/E1.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/ Codeforces Round #813 (Div. 2)/E21.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/2020 ICPC Asia East Continent Final/A.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/2020 ICPC Asia East Continent Final/F.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/2020 ICPC Asia East Continent Final/L.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/2022 Jiangsu Collegiate Programming Contest/H.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/2022-团队练习赛01/F.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/CodeTON Round 2 (Div. 1 + Div. 2, Rated, Prizes!)/F.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/Codeforces Round #613 (Div. 2)/A.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/Codeforces Round #613 (Div. 2)/B.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/Codeforces Round #613 (Div. 2)/C.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/Codeforces Round #613 (Div. 2)/D.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/Codeforces Round #613 (Div. 2)/E.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/Codeforces Round #613 (Div. 2)/F.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/Codeforces Round #788 (Div. 2)/FF.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/Codeforces Round #804 (Div. 2)/A.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/Codeforces Round #804 (Div. 2)/B.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/Codeforces Round #804 (Div. 2)/C.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/Codeforces Round #804 (Div. 2)/D.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/Codeforces Round #814 (Div. 1)/A.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/Codeforces Round #819 (Div. 1 + Div. 2) and Grimoire of Code Annual Contest 2022/A.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/Codeforces Round #819 (Div. 1 + Div. 2) and Grimoire of Code Annual Contest 2022/B.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/Codeforces Round #819 (Div. 1 + Div. 2) and Grimoire of Code Annual Contest 2022/C.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/Codeforces Round #819 (Div. 1 + Div. 2) and Grimoire of Code Annual Contest 2022/D.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/Codeforces Round #819 (Div. 1 + Div. 2) and Grimoire of Code Annual Contest 2022/E.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/Educational Codeforces Round 134 (Rated for Div. 2)/A.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/The 17th Heilongjiang Provincial Collegiate Programming Contest/B.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/The 17th Heilongjiang Provincial Collegiate Programming Contest/C.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/The 17th Heilongjiang Provincial Collegiate Programming Contest/D.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/The 17th Heilongjiang Provincial Collegiate Programming Contest/E.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/The 17th Heilongjiang Provincial Collegiate Programming Contest/K.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/Codeforces/The 17th Heilongjiang Provincial Collegiate Programming Contest/L.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/Library Checker/Dynamic Tree Vertex Add Path Sum.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/Library Checker/Dynamic Tree Vertex Set Path Composite.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/POJ/2752-Seek the Name, Seek the Fame.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/gym/The 16th Heilongjiang Provincial Collegiate Programming Contest/I.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/1/06.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/1/Ball.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/1/Laser.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/1/String.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/1/t.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/10/04.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/10/08.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/10/09.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/10/guess4.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/10/t4.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/10/t8.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/10/t9.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/10/tms.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/10/tt9.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/2/C++ to Python.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/2/Luxury cruise ship.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/3/02.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/3/03.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/3/04.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/3/05.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/3/08.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/3/09.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/3/11.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/4/01.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/4/02.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/4/06.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/4/09.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/4/11.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/4/111.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/4/t.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/4/t09.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/5/10.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/5/12.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/5/3.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/5/6.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/5/8.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/5/t6.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/5/t8.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/5/tt6.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/6/1.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/6/11.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/6/6.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/6/7.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/6/8.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/6/9.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/6/test8.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/7/08.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/7/10.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/7/3.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/7/4.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/7/6.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/7/6bf.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/7/8.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/8/5.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/8/7.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/8/8.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/8/t7.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/8/tt.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/8/ttt.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/9/01.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/9/03.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/hdu/2022“杭电杯”中国大学生算法设计超级联赛/9/08.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/luogu/P1712 [NOI2016] 区间.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/luogu/P2147 [SDOI2008] 洞穴勘测.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/luogu/P2486 [SDOI2011]染色.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/luogu/P2542 [AHOI2005] 航线规划.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/luogu/P3203 [HNOI2010]弹飞绵羊.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/luogu/P3527 [POI2011]MET-Meteors.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/luogu/P3690 【模板】动态树（Link Cut Tree）.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/luogu/P3810 【模板】三维偏序（陌上花开）.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/luogu/P3834 【模板】可持久化线段树 2.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/luogu/P4219 [BJOI2014]大融合.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/luogu/P6292 区间本质不同子串个数.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/luogu/trs.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/other/.cph/.t.cpp_ecd9a6413b2d58a111e007ffad7a86ce.prob" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/other/20220714/A.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/other/20220714/B.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/other/20220714/F.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/other/20220714/G.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/other/20220714/H.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/other/202207杭州/Day1/A.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/other/202207杭州/Day1/B.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/other/202207杭州/Day1/C.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/other/202207杭州/Day1/D.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/other/202207杭州/Day1/Day1-wly.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/other/202207杭州/Day1/tB.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/other/202207杭州/Day1/ttB.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/other/20220827百度之星/1.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/other/20220827百度之星/2.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/other/20220827百度之星/3.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/other/20220827百度之星/5.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/other/20220827百度之星/A.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/other/零散的代码/11.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/other/零散的代码/2.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/other/零散的代码/20220705/danzi/A.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/other/零散的代码/20220705/danzi/B.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/other/零散的代码/20220705/danzi/C.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/other/零散的代码/20220705/danzi/D.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/other/零散的代码/20220705/tjq/A.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/other/零散的代码/22.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/other/零散的代码/3.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/other/零散的代码/33.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/other/零散的代码/mihoyo/A.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/other/零散的代码/mihoyo/B.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/other/零散的代码/mihoyo/C.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/other/零散的代码/组队吃鸡.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/other/零散的代码/网易/t1.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/other/零散的代码/网易/t2.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/other/零散的代码/网易/t3.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/other/零散的代码/网易/tt2.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/t.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/test.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/实验课.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/博弈论/Calendar Game.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/博弈论/Deleting Divisors.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/博弈论/Digital Deletions.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/博弈论/Northcott Game.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/博弈论/Palindrome Game (easy version).cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/博弈论/Palindrome Game (hard version).cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/博弈论/Stone Game.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/博弈论/qwq.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/博弈论/tsg.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/博弈论/tt.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/博弈论/小牛再战.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/1/A.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/1/D.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/1/G.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/10/D.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/10/F.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/10/I.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/10/tD.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/10/tF.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/10/tI.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/2/E.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/2/EE.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/2/G.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/2/H.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/2/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/3/A.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/3/C.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/3/F.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/3/G.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/3/H.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/3/J.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/3/Journey.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/4/C.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/4/D.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/4/G.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/4/H.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/4/L.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/4/M.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/4/Mbf.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/4/t.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/4/tD.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/4/tG.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/4/tM.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/4/tle.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/4/ttt.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/4/wa.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/5/C.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/5/D.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/5/F.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/5/G.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/5/H.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/5/K.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/5/V.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/6/A.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/6/B.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/6/C.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/6/F.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/6/G.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/6/I.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/6/M.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/6/checkF.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/6/tC.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/7/A.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/7/F.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/7/J.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/7/K.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/8/D.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/8/F.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/8/tF.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/8/tt.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/9/3E.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/9/4E.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/9/5E.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/9/8E.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/9/C.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/9/E.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/9/F.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/9/G.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/9/I.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/9/anE.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/9/calLis.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/9/tC.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/9/tE.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/9/tt.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/加赛/C.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/加赛/G.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/加赛/H.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/加赛/K.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/加赛/tC.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/多校/加赛/tK.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/字符串/1/[模板]KMP字符串匹配.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/字符串/1/数一数.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/字符串/1/栗酱的数列.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/字符串/SAM/NSUBSTR - Substrings.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/字符串/SAM/Typewriter.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/字符串/SAM/t.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/字符串/SAM/tt.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/字符串/SAM/【模板】后缀自动机 (SAM).cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/字符串/SAM/多模式最长公共子串.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/字符串/SAM/最长公共子串.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/字符串/SAM/本质不同公共子串个数.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/字符串/SAM/本质不同子串个数.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/字符串/SAM/葫芦的考验之定位子串.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/字符串/SAM/葫芦的考验之定位子串2.0.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/小白月赛54/A.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/小白月赛54/B.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/小白月赛54/C.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/小白月赛54/D.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/小白月赛54/E.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/小白月赛54/F.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/小白月赛54/tE.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/数据结构/LCT/[SDOI2008]CAVE 洞穴勘测.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/数据结构/LCT/[SDOI2017]树点涂色.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/数据结构/LCT/智乃的LCA.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/数据结构/LCT/魔法森林.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/数据结构/LCT/魔法森林1.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/数据结构/第2章 区间信息维护（二）/G 智乃酱的平方数列.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/数据结构/第2章 区间信息维护（二）/H 仓鼠的鸡蛋.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/数据结构/第2章 区间信息维护（二）/I 智乃酱的cube.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/数据结构/第2章 区间信息维护（二）/J 智乃酱的双塔问题·极（带修改的DP，DDP）.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/数据结构/第2章 区间信息维护（二）/K 智乃酱的双塔问题·改.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/数据结构/第3章 区间信息维护（三）/C 势能线段树模板题二.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codelist/牛客专题/数据结构/第3章 区间信息维护（三）/D 势能线段树模板题一.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/t.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temp.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tq.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/1.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/other/百度之星复赛/2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codelist/other/百度之星复赛/3.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/tools/External Tools.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tools/External Tools.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/2.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelist/gym/The 16th Heilongjiang Provincial Collegiate Programming Contest/H.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/codelist/gym/The 16th Heilongjiang Provincial Collegiate Programming Contest/H.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelist/other/20220305PTA/L1-1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/codelist/other/20220305PTA/L1-1.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codelist/ttt.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/codelist/ttt.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/acm.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/acm.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/acm.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/acm.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codelist/2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/codelist/2.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.in" beforeDir="false" afterPath="$PROJECT_DIR$/data.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.out" beforeDir="false" afterPath="$PROJECT_DIR$/data.out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -403,24 +82,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "last_opened_file_path": "C:/Users/onglu/.ssh/id_rsa",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "http.proxy",
-    "two.files.diff.last.used.file": "C:/Users/onglu/CLionProjects/acm/codelist/luogu/P3690 【模板】动态树（Link Cut Tree）2.cpp"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/onglu/.ssh/id_rsa&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CLionExternalConfigurable&quot;,
+    &quot;two.files.diff.last.used.file&quot;: &quot;C:/Users/onglu/CLionProjects/acm/codelist/luogu/P3690 【模板】动态树（Link Cut Tree）2.cpp&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\onglu\CLionProjects\acm" />
@@ -789,6 +468,10 @@
       <workItem from="1662602830675" duration="6326000" />
       <workItem from="1662632592888" duration="145000" />
       <workItem from="1662632748347" duration="1232000" />
+      <workItem from="1662637346888" duration="1705000" />
+      <workItem from="1662787452332" duration="27000" />
+      <workItem from="1662808226616" duration="6634000" />
+      <workItem from="1662856706992" duration="8000" />
     </task>
     <task id="LOCAL-00001" summary="20220309">
       <created>1646810578113</created>
@@ -976,16 +659,17 @@
           <line>109</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>2</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="CMakeRunConfiguration">
         <watch expression="M[make_pair(n, make_pair(m, k))]" language="ObjectiveC" />
+        <watch expression="f[x][i][p]" language="ObjectiveC" />
+        <watch expression="g[y][j][q]" language="ObjectiveC" />
+        <watch expression="f[y][j][q]" language="ObjectiveC" />
+        <watch expression="g[2][1]" language="ObjectiveC" />
+        <watch expression="f[x][2][1]" language="ObjectiveC" />
+        <watch expression="f[3][2][1]" language="ObjectiveC" />
       </configuration>
     </watches-manager>
   </component>
